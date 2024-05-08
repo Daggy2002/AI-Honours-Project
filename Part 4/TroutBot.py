@@ -5,6 +5,8 @@ import os
 
 STOCKFISH_ENV_VAR = 'STOCKFISH_EXECUTABLE'
 
+stockfish_path = './stockfish-macos-m1-apple-silicon'
+
 
 class TroutBot(Player):
     """
@@ -18,14 +20,7 @@ class TroutBot(Player):
         self.color = None
         self.my_piece_captured_square = None
 
-        # make sure stockfish environment variable exists
-        if STOCKFISH_ENV_VAR not in os.environ:
-            raise KeyError(
-                'TroutBot requires an environment variable called "{}" pointing to the Stockfish executable'.format(
-                    STOCKFISH_ENV_VAR))
-
         # make sure there is actually a file
-        stockfish_path = os.environ[STOCKFISH_ENV_VAR]
         if not os.path.exists(stockfish_path):
             raise ValueError(
                 'No stockfish executable found at "{}"'.format(stockfish_path))
@@ -83,11 +78,9 @@ class TroutBot(Player):
             self.board.clear_stack()
             result = self.engine.play(self.board, chess.engine.Limit(time=0.5))
             return result.move
-        except chess.engine.EngineTerminatedError:
-            print('Troutbot Stockfish Engine died')
-        except chess.engine.EngineError:
-            print('Troutbot Stockfish Engine bad state at "{}"'.format(
-                self.board.fen()))
+        except (chess.engine.EngineTerminatedError, chess.engine.EngineError):
+            self.engine = chess.engine.SimpleEngine.popen_uci(
+                stockfish_path, setpgrp=True)
 
         # if all else fails, pass
         return None

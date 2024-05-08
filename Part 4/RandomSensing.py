@@ -134,6 +134,11 @@ class RandomSensing(Player):
             self.possible_fens = set(random.sample(
                 list(self.possible_fens), 10000))
 
+        # Make sure not divide by 0
+        if len(self.possible_fens) == 0:
+            print("No possible fens")
+            return None
+
         time_limit_per_fen = time_limit / len(self.possible_fens)
 
         print(f"Exploring: {len(self.possible_fens)} fens")
