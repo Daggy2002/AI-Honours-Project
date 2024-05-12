@@ -65,38 +65,36 @@ class RandomSensing(Player):
         self.possible_fens = matching_fens
 
     def choose_sense(self, sense_actions: list[Square], move_actions: list[chess.Move], seconds_left: float) -> Optional[Square]:
-        if self.my_piece_captured_square:
+        if self.my_piece_captured_square is not None:
+            print(self.my_piece_captured_square)
             # Get the rank and file of the captured square
             rank = chess.square_rank(self.my_piece_captured_square)
             file = chess.square_file(self.my_piece_captured_square)
+            print(f"Rank: {rank}, File: {file}")
+            # Adjust rank and file as per the rules
+            if rank == 7:
+                rank = 6
+            elif rank == 0:
+                rank = 1
 
-            # Adjust boundaries to ensure 3x3 sensing region stays within the board
-            min_rank = max(1, rank - 1)
-            max_rank = min(8, rank + 1)
-            min_file = max(1, file - 1)
-            max_file = min(8, file + 1)
+            if file == 0:
+                file = 1
+            elif file == 7:
+                file = 6
 
-            # Generate a list of squares within the 3x3 sensing region
-            region_squares = [
-                chess.square(r, f)
-                for r in range(min_rank, max_rank + 1)
-                for f in range(min_file, max_file + 1)
+            # Convert rank and file back to the integer representation of the square
+
+            return chess.square(file, rank)
+        else:
+            # Convert integers to Square objects and filter for sense actions within the board
+            valid_sense_actions = [
+                sq for sq in (chess.Square(s) for s in sense_actions)
+                # Adjust boundaries to ensure 3x3 sensing region stays within the board
+                if 1 <= chess.square_rank(sq) <= 6 and 1 <= chess.square_file(sq) <= 6
             ]
 
-            # Return a random square from the region
-            return random.choice(region_squares)
-
-        # Convert integers to Square objects and filter for sense actions within the board
-        valid_sense_actions = [
-            sq for sq in (chess.Square(s) for s in sense_actions)
-            # Adjust boundaries to ensure 3x3 sensing region stays within the board
-            if 1 <= chess.square_rank(sq) <= 6 and 1 <= chess.square_file(sq) <= 6
-        ]
-
-        if valid_sense_actions:
-            return random.choice(valid_sense_actions)
-        else:
-            return None  # No valid sense actions within the bounds
+            if valid_sense_actions:
+                return random.choice(valid_sense_actions)
 
     def handle_sense_result(self, sense_result: list[tuple[Square, Optional[chess.Piece]]]):
         filtered_fens = set()

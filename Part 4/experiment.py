@@ -16,7 +16,7 @@ def run(agent, enemy, trials):
 
 
 def main():
-    num_trials = 10
+    num_trials = 50
 
     agent = "RandomSensing"
     enemy = "trout"
