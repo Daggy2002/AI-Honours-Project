@@ -4,13 +4,14 @@ from reconchess import *
 import os
 from collections import defaultdict
 import numpy as np
+import scipy.signal as sp
 
 STOCKFISH_ENV_VAR = 'STOCKFISH_EXECUTABLE'
 
 stockfish_path = './stockfish-macos-m1-apple-silicon'
 
 
-class ImprovedAgent(Player):
+class Veru(Player):
     def __init__(self):
         self.possible_fens = set()
         self.color = None
@@ -64,40 +65,55 @@ class ImprovedAgent(Player):
 
         self.possible_fens = matching_fens
 
-    def choose_sense(self, sense_actions: list[Square], move_actions: list[chess.Move], seconds_left: float) -> Optional[Square]:
-        if self.my_piece_captured_square is not None:
-            # Get the rank and file of the captured square
-            rank = chess.square_rank(self.my_piece_captured_square)
-            file = chess.square_file(self.my_piece_captured_square)
-            # Adjust rank and file as per the rules
-            if rank == 7:
-                rank = 6
-            elif rank == 0:
-                rank = 1
+    def choose_sense(
+        self,
+        sense_actions: List[Square],
+        move_actions: List[chess.Move],
+        seconds_left: float,
+    ) -> Optional[Square]:
+        square_entropy = defaultdict(dict)
+        fens_to_use = min(10000, len(self.possible_fens))
 
-            if file == 0:
-                file = 1
-            elif file == 7:
-                file = 6
+        for fen in random.sample(list(self.possible_fens), fens_to_use):
+            curr_board = chess.Board(fen)
 
-            # Convert rank and file back to the integer representation of the square
+            for square, piece in curr_board.piece_map().items():
+                square_entropy[square][piece] = square_entropy[square].get(
+                    piece, 0) + 1
 
-            return chess.square(file, rank)
-        else:
-            # Convert integers to Square objects and filter for sense actions within the board
-            valid_sense_actions = [
-                sq for sq in (chess.Square(s) for s in sense_actions)
-                # Adjust boundaries to ensure 3x3 sensing region stays within the board
-                if 1 <= chess.square_rank(sq) <= 6 and 1 <= chess.square_file(sq) <= 6
-            ]
+        board_entropy = np.zeros((8, 8), dtype=float)
 
-            if valid_sense_actions:
-                return random.choice(valid_sense_actions)
+        for square in square_entropy.keys():
+            square_row = square // 8
+            square_col = square % 8
+
+            entropy = 0
+            total_count = sum(square_entropy[square].values())
+
+            for piece, count in square_entropy[square].items():
+                prob = count / total_count
+                entropy -= prob * np.log2(prob)
+
+            board_entropy[square_row, square_col] = entropy
+
+        entropy_sum = sp.convolve2d(
+            board_entropy, np.ones((3, 3), dtype=float), mode="same")
+
+        max_entropy_indices = np.where(
+            entropy_sum.flatten() == np.max(entropy_sum))[0]
+        # Convert to a 1-D NumPy array
+        max_entropy_indices = np.array(max_entropy_indices)
+
+        if len(max_entropy_indices) == 0:
+            return None
+
+        # Convert back to Square
+        return chess.SquareSet(np.random.choice(max_entropy_indices)).pop()
 
     def handle_sense_result(self, sense_result: list[tuple[Square, Optional[chess.Piece]]]):
         filtered_fens = set()
 
-        print("Improved Agent")
+        print("Veru Agent")
         print(f"{len(self.possible_fens)} before sensing")
 
         for fen in self.possible_fens:

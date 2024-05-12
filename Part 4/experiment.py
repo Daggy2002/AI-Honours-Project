@@ -4,8 +4,9 @@ bots = {
     "random": "reconchess.bots.random_bot",
     "trout": "TroutBot.py",
     "attack": "reconchess.bots.attacker_bot",
-    "agent": "agent.py",
     "RandomSensing": "RandomSensing.py",
+    "Veru": "veru.py",
+    "ImprovedAgent": "ImprovedAgent.py"
 }
 
 
@@ -18,8 +19,8 @@ def run(agent, enemy, trials):
 def main():
     num_trials = 50
 
-    agent = "RandomSensing"
-    enemy = "trout"
+    agent = "ImprovedAgent"
+    enemy = "Veru"
 
     run(agent, enemy, num_trials)
 
