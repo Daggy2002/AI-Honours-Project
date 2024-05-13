@@ -17,7 +17,7 @@ def run(agent, enemy, trials):
 
 
 def main():
-    num_trials = 50
+    num_trials = 10
 
     agent = "ImprovedAgent"
     enemy = "Veru"

@@ -9,6 +9,28 @@ STOCKFISH_ENV_VAR = 'STOCKFISH_EXECUTABLE'
 
 stockfish_path = './stockfish-macos-m1-apple-silicon'
 
+piece_values = {
+    chess.PAWN: 1,
+    chess.KNIGHT: 3,
+    chess.BISHOP: 3,
+    chess.ROOK: 5,
+    chess.QUEEN: 9,
+    chess.KING: 10  # You may want to assign a higher value for the king
+}
+
+
+def evaluate_region(board, square, color):
+    value = 0
+    for offset in [-9, -8, -7, -1, 1, 7, 8, 9]:
+        neighbor = square + offset
+        neighbor_rank = chess.square_rank(neighbor)
+        neighbor_file = chess.square_file(neighbor)
+        if 0 <= neighbor_rank < 8 and 0 <= neighbor_file < 8:
+            piece = board.piece_at(neighbor)
+            if piece is not None and piece.color != color:
+                value += piece_values.get(piece.piece_type, 0)
+    return value
+
 
 class ImprovedAgent(Player):
     def __init__(self):
@@ -81,18 +103,23 @@ class ImprovedAgent(Player):
                 file = 6
 
             # Convert rank and file back to the integer representation of the square
-
             return chess.square(file, rank)
         else:
-            # Convert integers to Square objects and filter for sense actions within the board
-            valid_sense_actions = [
-                sq for sq in (chess.Square(s) for s in sense_actions)
-                # Adjust boundaries to ensure 3x3 sensing region stays within the board
-                if 1 <= chess.square_rank(sq) <= 6 and 1 <= chess.square_file(sq) <= 6
-            ]
+            max_value = 0
+            best_square = None
 
-            if valid_sense_actions:
-                return random.choice(valid_sense_actions)
+            for fen in self.possible_fens:
+                board = chess.Board(fen)
+
+                for square in sense_actions:
+                    if 1 <= chess.square_rank(square) <= 6 and 1 <= chess.square_file(square) <= 6:
+                        region_value = evaluate_region(
+                            board, square, self.color)
+                        if region_value > max_value:
+                            max_value = region_value
+                            best_square = square
+
+            return best_square
 
     def handle_sense_result(self, sense_result: list[tuple[Square, Optional[chess.Piece]]]):
         filtered_fens = set()
@@ -143,8 +170,30 @@ class ImprovedAgent(Player):
         print(f"Exploring: {len(self.possible_fens)} fens")
         print()
 
+        check_count = 0
         for fen in self.possible_fens:
             curr_board = chess.Board(fen)
+            if curr_board.is_check():
+                check_count += 1
+
+        # Check if majority of boards are in check
+        handle_check = check_count > len(self.possible_fens) // 2
+
+        for fen in self.possible_fens:
+            curr_board = chess.Board(fen)
+
+            if handle_check and curr_board.is_check():
+                legal_moves = [move for move in curr_board.pseudo_legal_moves
+                               if move in move_actions and not curr_board.is_into_check(move)]
+                if legal_moves:
+                    # If there are legal moves that don't leave the king in check, choose one randomly
+                    best_move = random.choice(legal_moves)
+                    move_counts[best_move] = move_counts.get(best_move, 0) + 1
+                    if best_move in move_actions:
+                        print("LOG: King in check")
+                        return best_move
+
+            # If the king is not in check (or not the majority case), proceed with the existing logic
             enemy_king_square = curr_board.king(not self.color)
 
             if enemy_king_square:
@@ -154,15 +203,19 @@ class ImprovedAgent(Player):
                 if enemy_king_attackers:
                     attacker_square = enemy_king_attackers.pop()
                     move = chess.Move(attacker_square, enemy_king_square)
-                    move_counts[move] = move_counts.get(move, 0) + 1
+                    # Check if capturing doesn't leave king in check
+                    if not curr_board.is_into_check(move):
+                        move_counts[move] = move_counts.get(move, 0) + 1
 
-                    if move in move_actions:
-                        return move
+                        if move in move_actions:
+                            return move
 
             try:
                 move = self.engine.play(
                     curr_board, chess.engine.Limit(time=time_limit_per_fen))
-                move_counts[move.move] = move_counts.get(move.move, 0) + 1
+                # Check if engine move doesn't leave king in check
+                if not curr_board.is_into_check(move.move):
+                    move_counts[move.move] = move_counts.get(move.move, 0) + 1
             except (chess.engine.EngineTerminatedError, chess.engine.EngineError):
                 self.engine = chess.engine.SimpleEngine.popen_uci(
                     stockfish_path, setpgrp=True)
