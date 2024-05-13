@@ -10,14 +10,14 @@ def main(bot1, bot2):
     num_games = 10
     bot1_wins = 0
     bot2_wins = 0
-    bot1_white_wins = 0
-    bot1_black_wins = 0
-    bot2_white_wins = 0
-    bot2_black_wins = 0
     draws = 0
     completed_games = 0
     bot1_failed_games = 0
     bot2_failed_games = 0
+    bot1_white_wins = 0
+    bot1_black_wins = 0
+    bot2_white_wins = 0
+    bot2_black_wins = 0
 
     for i in range(num_games):
         game = LocalGame()
@@ -34,17 +34,19 @@ def main(bot1, bot2):
             winner = 'Draw'
             if winner_color is not None:
                 winner = chess.COLOR_NAMES[winner_color]
-                if type(white_bot) == type(bot1):
-                    bot1_wins += 1
-                    if winner_color == chess.WHITE:
+                if winner_color == chess.WHITE:
+                    if white_bot is bot1:
+                        bot1_wins += 1
                         bot1_white_wins += 1
                     else:
-                        bot1_black_wins += 1
-                else:
-                    bot2_wins += 1
-                    if winner_color == chess.WHITE:
+                        bot2_wins += 1
                         bot2_white_wins += 1
+                else:
+                    if black_bot is bot1:
+                        bot1_wins += 1
+                        bot1_black_wins += 1
                     else:
+                        bot2_wins += 1
                         bot2_black_wins += 1
             else:
                 draws += 1
@@ -62,7 +64,9 @@ def main(bot1, bot2):
 
         history = game.get_game_history()
         timestamp = datetime.now().strftime('%Y_%m_%d-%H_%M_%S')
-        replay_path = f'replays/{bot1_name}_vs_{bot2_name}_{timestamp}.json'
+        white_bot_name = type(white_bot).__name__
+        black_bot_name = type(black_bot).__name__
+        replay_path = f'{white_bot_name}-{black_bot_name}-{winner}-{timestamp}.json'
         print(f'Saving replay to {replay_path}...')
         history.save(replay_path)
 
@@ -73,8 +77,8 @@ def main(bot1, bot2):
 
     print(f'\nResults after {num_games} games:')
     print(f'Completed games: {total_completed_games}')
-    print(f'{bot1_name} win ratio: {bot1_win_ratio:.2f} (White: {bot1_white_wins}, Black: {bot1_black_wins}), Failed games: {bot1_failed_games}')
-    print(f'{bot2_name} win ratio: {bot2_win_ratio:.2f} (White: {bot2_white_wins}, Black: {bot2_black_wins}), Failed games: {bot2_failed_games}')
+    print(f'{bot1_name} wins: {bot1_wins} (white wins: {bot1_white_wins}, black wins: {bot1_black_wins}), Failed games: {bot1_failed_games}')
+    print(f'{bot2_name} wins: {bot2_wins} (white wins: {bot2_white_wins}, black wins: {bot2_black_wins}), Failed games: {bot2_failed_games}')
     print(f'Draw ratio: {draw_ratio:.2f}')
 
 

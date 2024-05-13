@@ -17,10 +17,10 @@ def run(agent, enemy, trials):
 
 
 def main():
-    num_trials = 10
+    num_trials = 5
 
     agent = "ImprovedAgent"
-    enemy = "Veru"
+    enemy = "trout"
 
     run(agent, enemy, num_trials)
 
