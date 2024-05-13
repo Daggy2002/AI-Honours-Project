@@ -7,7 +7,7 @@ from reconchess import LocalGame, play_local_game
 def main(bot1, bot2):
     bot1_name = type(bot1).__name__
     bot2_name = type(bot2).__name__
-    num_games = 10
+    num_games = 30
     bot1_wins = 0
     bot2_wins = 0
     draws = 0

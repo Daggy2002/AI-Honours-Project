@@ -5,10 +5,17 @@ import os
 from collections import defaultdict
 import numpy as np
 import scipy.signal as sp
+import platform
 
-STOCKFISH_ENV_VAR = 'STOCKFISH_EXECUTABLE'
-
-stockfish_path = './stockfish-macos-m1-apple-silicon'
+# Set stockfish path based on the operating system
+if platform.system() == 'Windows':
+    stockfish_path = './stockfish-windows-x86-64-avx2.exe'
+elif platform.system() == 'Linux':
+    stockfish_path = './stockfish-ubuntu-x86-64-avx2'
+elif platform.system() == 'Darwin':
+    stockfish_path = './stockfish-macos-m1-apple-silicon'
+else:
+    raise EnvironmentError('Unsupported platform')
 
 
 class Veru(Player):
