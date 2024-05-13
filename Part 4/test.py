@@ -86,8 +86,11 @@ if __name__ == '__main__':
     from TroutBot import TroutBot
     from ImprovedAgent import ImprovedAgent
     from veru import Veru
+    from RandomSensing import RandomSensing
+    from reconchess.bots.random_bot import RandomBot
+    from reconchess.bots.attacker_bot import AttackerBot
 
-    # Choose any two bots from the three available bots
+    # Choose any two bots
     bot1 = TroutBot()
     bot2 = ImprovedAgent()
 
