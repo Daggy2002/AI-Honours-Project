@@ -22,7 +22,7 @@ piece_values = {
     chess.BISHOP: 3,
     chess.ROOK: 5,
     chess.QUEEN: 9,
-    chess.KING: 0  # You may want to assign a higher value for the king
+    chess.KING: 2  # You may want to assign a higher value for the king
 }
 
 
