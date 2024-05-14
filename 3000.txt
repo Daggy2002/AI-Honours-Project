@@ -1,0 +1,179 @@
+Results after 100 games:
+Completed games: 90
+TroutBot wins: 27 (white wins: 18, black wins: 9), Failed games: 8
+ImprovedAgent wins: 63 (white wins: 39, black wins: 24), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 95
+TroutBot wins: 28 (white wins: 19, black wins: 9), Failed games: 4
+ImprovedAgent wins: 67 (white wins: 40, black wins: 27), Failed games: 1
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 89
+TroutBot wins: 22 (white wins: 16, black wins: 6), Failed games: 8
+ImprovedAgent wins: 67 (white wins: 41, black wins: 26), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 92
+TroutBot wins: 23 (white wins: 19, black wins: 4), Failed games: 5
+ImprovedAgent wins: 69 (white wins: 43, black wins: 26), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 90
+TroutBot wins: 26 (white wins: 17, black wins: 9), Failed games: 7
+ImprovedAgent wins: 64 (white wins: 38, black wins: 26), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 89
+TroutBot wins: 25 (white wins: 16, black wins: 9), Failed games: 7
+ImprovedAgent wins: 64 (white wins: 37, black wins: 27), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 89
+TroutBot wins: 31 (white wins: 16, black wins: 15), Failed games: 8
+ImprovedAgent wins: 58 (white wins: 32, black wins: 26), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 90
+TroutBot wins: 33 (white wins: 18, black wins: 15), Failed games: 7
+ImprovedAgent wins: 57 (white wins: 32, black wins: 25), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 88
+TroutBot wins: 24 (white wins: 14, black wins: 10), Failed games: 8
+ImprovedAgent wins: 64 (white wins: 36, black wins: 28), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 95
+TroutBot wins: 38 (white wins: 24, black wins: 14), Failed games: 5
+ImprovedAgent wins: 57 (white wins: 36, black wins: 21), Failed games: 0
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 92
+TroutBot wins: 30 (white wins: 17, black wins: 13), Failed games: 6
+ImprovedAgent wins: 62 (white wins: 35, black wins: 27), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 93
+TroutBot wins: 31 (white wins: 16, black wins: 15), Failed games: 6
+ImprovedAgent wins: 62 (white wins: 34, black wins: 28), Failed games: 1
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 92
+TroutBot wins: 27 (white wins: 18, black wins: 9), Failed games: 4
+ImprovedAgent wins: 65 (white wins: 37, black wins: 28), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 95
+TroutBot wins: 36 (white wins: 17, black wins: 19), Failed games: 3
+ImprovedAgent wins: 59 (white wins: 29, black wins: 30), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 91
+TroutBot wins: 31 (white wins: 21, black wins: 10), Failed games: 7
+ImprovedAgent wins: 60 (white wins: 38, black wins: 22), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 93
+TroutBot wins: 31 (white wins: 18, black wins: 13), Failed games: 5
+ImprovedAgent wins: 62 (white wins: 35, black wins: 27), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 94
+TroutBot wins: 29 (white wins: 22, black wins: 7), Failed games: 4
+ImprovedAgent wins: 65 (white wins: 41, black wins: 24), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 91
+TroutBot wins: 31 (white wins: 20, black wins: 11), Failed games: 7
+ImprovedAgent wins: 60 (white wins: 37, black wins: 23), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 92
+TroutBot wins: 39 (white wins: 22, black wins: 17), Failed games: 2
+ImprovedAgent wins: 53 (white wins: 27, black wins: 26), Failed games: 6
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 94
+TroutBot wins: 26 (white wins: 13, black wins: 13), Failed games: 4
+ImprovedAgent wins: 68 (white wins: 35, black wins: 33), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 96
+TroutBot wins: 31 (white wins: 22, black wins: 9), Failed games: 0
+ImprovedAgent wins: 65 (white wins: 37, black wins: 28), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 93
+TroutBot wins: 31 (white wins: 20, black wins: 11), Failed games: 3
+ImprovedAgent wins: 62 (white wins: 35, black wins: 27), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 89
+TroutBot wins: 23 (white wins: 15, black wins: 8), Failed games: 7
+ImprovedAgent wins: 66 (white wins: 38, black wins: 28), Failed games: 4
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 92
+TroutBot wins: 28 (white wins: 17, black wins: 11), Failed games: 8
+ImprovedAgent wins: 64 (white wins: 39, black wins: 25), Failed games: 0
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 87
+TroutBot wins: 25 (white wins: 14, black wins: 11), Failed games: 12
+ImprovedAgent wins: 62 (white wins: 38, black wins: 24), Failed games: 1
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 93
+TroutBot wins: 31 (white wins: 18, black wins: 13), Failed games: 5
+ImprovedAgent wins: 62 (white wins: 35, black wins: 27), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 95
+TroutBot wins: 31 (white wins: 18, black wins: 13), Failed games: 2
+ImprovedAgent wins: 64 (white wins: 34, black wins: 30), Failed games: 3
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 96
+TroutBot wins: 30 (white wins: 18, black wins: 12), Failed games: 4
+ImprovedAgent wins: 66 (white wins: 38, black wins: 28), Failed games: 0
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 88
+TroutBot wins: 31 (white wins: 19, black wins: 12), Failed games: 10
+ImprovedAgent wins: 57 (white wins: 36, black wins: 21), Failed games: 2
+Draw ratio: 0.00
+
+Results after 100 games:
+Completed games: 90
+TroutBot wins: 28 (white wins: 18, black wins: 10), Failed games: 9
+ImprovedAgent wins: 62 (white wins: 39, black wins: 23), Failed games: 1
+Draw ratio: 0.00
