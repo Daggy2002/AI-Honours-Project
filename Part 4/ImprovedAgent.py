@@ -22,7 +22,7 @@ piece_values = {
     chess.BISHOP: 3,
     chess.ROOK: 5,
     chess.QUEEN: 9,
-    chess.KING: 2  # You may want to assign a higher value for the king
+    chess.KING: 10  # You may want to assign a higher value for the king
 }
 
 
@@ -177,28 +177,28 @@ class ImprovedAgent(Player):
         print(f"Exploring: {len(self.possible_fens)} fens")
         print()
 
-        check_count = 0
+        # check_count = 0
+        # for fen in self.possible_fens:
+        #     curr_board = chess.Board(fen)
+        #     if curr_board.is_check():
+        #         check_count += 1
+
+        # # Check if majority of boards are in check
+        # handle_check = check_count > len(self.possible_fens) // 2
+
         for fen in self.possible_fens:
             curr_board = chess.Board(fen)
-            if curr_board.is_check():
-                check_count += 1
 
-        # Check if majority of boards are in check
-        handle_check = check_count > len(self.possible_fens) // 2
-
-        for fen in self.possible_fens:
-            curr_board = chess.Board(fen)
-
-            if handle_check and curr_board.is_check():
-                legal_moves = [move for move in curr_board.pseudo_legal_moves
-                               if move in move_actions and not curr_board.is_into_check(move)]
-                if legal_moves:
-                    # If there are legal moves that don't leave the king in check, choose one randomly
-                    best_move = random.choice(legal_moves)
-                    move_counts[best_move] = move_counts.get(best_move, 0) + 1
-                    if best_move in move_actions:
-                        print("LOG: King in check")
-                        return best_move
+            # if handle_check and curr_board.is_check():
+            #     legal_moves = [move for move in curr_board.pseudo_legal_moves
+            #                    if move in move_actions and not curr_board.is_into_check(move)]
+            #     if legal_moves:
+            #         # If there are legal moves that don't leave the king in check, choose one randomly
+            #         best_move = random.choice(legal_moves)
+            #         move_counts[best_move] = move_counts.get(best_move, 0) + 1
+            #         if best_move in move_actions:
+            #             print("LOG: King in check")
+            #             return best_move
 
             # If the king is not in check (or not the majority case), proceed with the existing logic
             enemy_king_square = curr_board.king(not self.color)

@@ -73,11 +73,9 @@ class RandomSensing(Player):
 
     def choose_sense(self, sense_actions: list[Square], move_actions: list[chess.Move], seconds_left: float) -> Optional[Square]:
         if self.my_piece_captured_square is not None:
-            print(self.my_piece_captured_square)
             # Get the rank and file of the captured square
             rank = chess.square_rank(self.my_piece_captured_square)
             file = chess.square_file(self.my_piece_captured_square)
-            print(f"Rank: {rank}, File: {file}")
             # Adjust rank and file as per the rules
             if rank == 7:
                 rank = 6
