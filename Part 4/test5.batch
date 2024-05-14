@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=AI-5
+#SBATCH --output="/home-mscluster/sjumoorty2/AI-Honours-Project/Part 4/test5.txt"
+#SBATCH --ntasks=1
+# increase the time here if you need more than 10 minutes to run your job.
+#SBATCH --time=3000:00
+#SBATCH --partition=bigbatch
+
+python test.py &
+python test.py &
+python test.py &
+python test.py &
+python test.py &
+
+wait;
