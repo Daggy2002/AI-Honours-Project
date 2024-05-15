@@ -148,6 +148,7 @@ class ImprovedAgent(Player):
 
         self.possible_fens = filtered_fens
 
+    # This gives us 0.73 win ratio
     # def choose_move(self, move_actions: list[chess.Move], seconds_left: float) -> Optional[chess.Move]:
     #     valid_fens = set()
 
@@ -296,6 +297,7 @@ class ImprovedAgent(Player):
                     print("Engine did not return a valid move.")
             except (chess.engine.EngineTerminatedError, chess.engine.EngineError) as e:
                 print(f"Engine error: {e}")
+                print("Restarting engine...")
                 self.engine = chess.engine.SimpleEngine.popen_uci(
                     stockfish_path, setpgrp=True)
             except chess.IllegalMoveError as e:

@@ -102,6 +102,10 @@ class RandomSensing(Player):
                 return random.choice(valid_sense_actions)
 
     def handle_sense_result(self, sense_result: list[tuple[Square, Optional[chess.Piece]]]):
+
+        print("RandomSensing Agent")
+        print(f"{len(self.possible_fens)} before sensing")
+
         filtered_fens = set()
 
         for fen in self.possible_fens:

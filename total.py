@@ -64,7 +64,7 @@ def summarize_results(text):
 
 
 # Take in the textfile
-with open("500_no_king_check_10.txt", "r") as file:
+with open("500_error_fix.txt", "r") as file:
     text = file.read()
 
 # Call the function to summarize the results
