@@ -135,7 +135,8 @@ def play_double_round_robin_tournament(bots, num_tournaments):
         tournament_results.append(bot_results)
 
     # Save tournament results to a JSON file
-    with open("tournament_results.json", "w") as f:
+    timestamp = datetime.now().strftime('%Y_%m_%d-%H_%M_%S')
+    with open("tournament_results_{}.json".format(timestamp), "w") as f:
         json.dump(tournament_results, f, indent=2)
 
     # Save the statistics for each bot as a table image
@@ -172,7 +173,7 @@ def play_double_round_robin_tournament(bots, num_tournaments):
     )
     table.auto_set_font_size(False)
     table.set_fontsize(8)
-    plt.savefig("tournament_stats.png", bbox_inches='tight')
+    plt.savefig(f"tournament_results_{timestamp}.png", bbox_inches='tight')
 
 
 if __name__ == '__main__':
