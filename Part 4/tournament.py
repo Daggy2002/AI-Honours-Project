@@ -22,7 +22,7 @@ def play_double_round_robin_tournament(bots, num_tournaments):
         ], "wins_white": 0, "wins_black": 0, "failed": 0} for bot_name in bot_names}
 
         # Total rounds in a single RR tournament
-        total_rounds = (num_bots * (num_bots - 1)) // 2
+        total_rounds = (num_bots * (num_bots - 1))
         current_round = 1
 
         for i in range(num_bots):
@@ -39,53 +39,91 @@ def play_double_round_robin_tournament(bots, num_tournaments):
                 print(
                     f"\nRound {current_round}/{total_rounds}: {bot1_name} vs {bot2_name}")
 
-                # Play as white and black
-                for color in [chess.WHITE, chess.BLACK]:
-                    game = LocalGame()
-                    try:
-                        if color == chess.WHITE:
-                            white_bot, black_bot = bot1, bot2
-                        else:
-                            white_bot, black_bot = bot2, bot1
-
-                        winner_color, _, _ = play_local_game(
-                            white_bot, black_bot, game=game)
-                        if winner_color is not None:
-                            if winner_color == chess.WHITE:
-                                bot1_wins += 1
-                                bot_results[bot1_name]["wins_white"] += 1
-                                round_results.append({
-                                    "round": current_round,
-                                    "white_bot": bot1_name,
-                                    "black_bot": bot2_name,
-                                    "winner": bot1_name
-                                })
-                            else:
-                                bot2_wins += 1
-                                bot_results[bot2_name]["wins_black"] += 1
-                                round_results.append({
-                                    "round": current_round,
-                                    "white_bot": bot1_name,
-                                    "black_bot": bot2_name,
-                                    "winner": bot2_name
-                                })
-                        else:
-                            draws += 1
+                # Play the first round with bot1 as white and bot2 as black
+                game = LocalGame()
+                try:
+                    winner_color, _, _ = play_local_game(bot1, bot2, game=game)
+                    if winner_color is not None:
+                        if winner_color == chess.WHITE:
+                            bot1_wins += 1
+                            bot_results[bot1_name]["wins_white"] += 1
                             round_results.append({
                                 "round": current_round,
                                 "white_bot": bot1_name,
                                 "black_bot": bot2_name,
-                                "winner": "Draw"
+                                "winner": bot1_name
                             })
-                    except Exception as e:
-                        traceback.print_exc()
-                        bot_results[bot2_name]["failed"] += 1
+                        else:
+                            bot2_wins += 1
+                            bot_results[bot2_name]["wins_black"] += 1
+                            round_results.append({
+                                "round": current_round,
+                                "white_bot": bot1_name,
+                                "black_bot": bot2_name,
+                                "winner": bot2_name
+                            })
+                    else:
+                        draws += 1
                         round_results.append({
                             "round": current_round,
                             "white_bot": bot1_name,
                             "black_bot": bot2_name,
-                            "winner": bot2_name  # Assign win to the other bot
+                            "winner": "Draw"
                         })
+                except Exception as e:
+                    traceback.print_exc()
+                    bot_results[bot2_name]["failed"] += 1
+                    round_results.append({
+                        "round": current_round,
+                        "white_bot": bot1_name,
+                        "black_bot": bot2_name,
+                        "winner": bot2_name  # Assign win to the other bot
+                    })
+
+                current_round += 1  # Increment the round count
+
+                # Play the second round with bot2 as white and bot1 as black
+                game = LocalGame()
+                try:
+                    winner_color, _, _ = play_local_game(bot2, bot1, game=game)
+                    if winner_color is not None:
+                        if winner_color == chess.WHITE:
+                            bot2_wins += 1
+                            bot_results[bot2_name]["wins_white"] += 1
+                            round_results.append({
+                                "round": current_round,
+                                "white_bot": bot2_name,
+                                "black_bot": bot1_name,
+                                "winner": bot2_name
+                            })
+                        else:
+                            bot1_wins += 1
+                            bot_results[bot1_name]["wins_black"] += 1
+                            round_results.append({
+                                "round": current_round,
+                                "white_bot": bot2_name,
+                                "black_bot": bot1_name,
+                                "winner": bot1_name
+                            })
+                    else:
+                        draws += 1
+                        round_results.append({
+                            "round": current_round,
+                            "white_bot": bot2_name,
+                            "black_bot": bot1_name,
+                            "winner": "Draw"
+                        })
+                except Exception as e:
+                    traceback.print_exc()
+                    bot_results[bot1_name]["failed"] += 1
+                    round_results.append({
+                        "round": current_round,
+                        "white_bot": bot2_name,
+                        "black_bot": bot1_name,
+                        "winner": bot1_name  # Assign win to the other bot
+                    })
+
+                current_round += 1  # Increment the round count
 
                 bot_results[bot1_name]["wins"] += bot1_wins
                 bot_results[bot2_name]["wins"] += bot2_wins
@@ -93,8 +131,6 @@ def play_double_round_robin_tournament(bots, num_tournaments):
                 bot_results[bot2_name]["draws"] += draws
                 bot_results[bot1_name]["rounds"].extend(round_results)
                 bot_results[bot2_name]["rounds"].extend(round_results)
-
-                current_round += 1  # Increment the round count
 
         tournament_results.append(bot_results)
 
@@ -106,8 +142,8 @@ def play_double_round_robin_tournament(bots, num_tournaments):
     fig, ax = plt.subplots(figsize=(10, 6))
     ax.axis('tight')
     ax.axis('off')
-    column_labels = ["Bot", "Tournaments Won", "Total Wins",
-                     "Wins as White", "Wins as Black", "Draws", "Failed Games"]
+    column_labels = ["Bot", "Tournaments Won", "Round Wins",
+                     "Wins as White", "Wins as Black", "Round Draws", "Failed Games"]
     table_data = []
     for bot_name in bot_names:
         total_wins = 0
@@ -146,8 +182,8 @@ if __name__ == '__main__':
     from reconchess.bots.random_bot import RandomBot
 
     # Choose any bots for the tournament
-    bots = [RandomBot(), RandomBot(), RandomBot(), RandomBot()]
-    num_tournaments = 1  # Change this value to the desired number of tournaments
+    bots = [TroutBot(), ImprovedAgent(), RandomSensing(), RandomBot()]
+    num_tournaments = 10  # Change this value to the desired number of tournaments
 
     tournament_results = play_double_round_robin_tournament(
         bots, num_tournaments)
