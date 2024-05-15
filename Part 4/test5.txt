@@ -5,7 +5,7 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
     raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
-chess.IllegalMoveError: illegal uci: 'e5h5' in rnbqkrk1/pp1p2pP/2p5/4r3/4p3/8/PPP1K1P1/R4R2 b q - 0 1
+chess.IllegalMoveError: illegal uci: 'c8c7' in r1kRkbnr/pp2pppp/2p1b3/4P3/2b5/2N3P1/PP1R4/2K5 b kq - 3 1
 Engine sent invalid ponder move
 Traceback (most recent call last):
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
@@ -13,222 +13,18 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
     raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
-chess.IllegalMoveError: illegal uci: 'd7d5' in rnbqkR2/pp1p2pk/2p5/4r3/4p3/8/PPP1K1P1/R7 b q - 0 1
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 30 fens
-Exploring: 30 fens
-
-Possible: 65 fens
-Exploring: 65 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 3 fens
-Exploring: 3 fens
-
-Possible: 4 fens
-Exploring: 4 fens
-
-Possible: 4 fens
-Exploring: 4 fens
-
-Possible: 71 fens
-Exploring: 71 fens
-
-Possible: 38 fens
-Exploring: 38 fens
-
-Possible: 29 fens
-Exploring: 29 fens
-
-Possible: 222 fens
-Exploring: 222 fens
-
-Possible: 1623 fens
-Exploring: 1623 fens
-
-Possible: 72 fens
-Exploring: 72 fens
-
-Possible: 49 fens
-Exploring: 49 fens
-
-Possible: 109 fens
-Exploring: 109 fens
-
-Possible: 4 fens
-Exploring: 4 fens
-
-Possible: 4 fens
-Exploring: 4 fens
-
-Possible: 87 fens
-Exploring: 87 fens
-
-Game 1: Winner - black
-Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_31_07.json...
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 30 fens
-Exploring: 30 fens
-
-Possible: 15 fens
-Exploring: 15 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 2 fens
-Exploring: 2 fens
-
-Possible: 25 fens
-Exploring: 25 fens
-
-Possible: 227 fens
-Exploring: 227 fens
-
-Possible: 21 fens
-Exploring: 21 fens
-
-Possible: 21 fens
-Exploring: 21 fens
-
-Possible: 21 fens
-Exploring: 21 fens
-
-Possible: 194 fens
-Exploring: 194 fens
-
-Possible: 185 fens
-Exploring: 185 fens
-
-Possible: 531 fens
-Exploring: 531 fens
-
-Game 2: Winner - white
-Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_34_06.json...
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 19 fens
-Exploring: 19 fens
-
-Possible: 27 fens
-Exploring: 27 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 22 fens
-Exploring: 22 fens
-
-Possible: 53 fens
-Exploring: 53 fens
-
-Possible: 12 fens
-Exploring: 12 fens
-
-Possible: 11 fens
-Exploring: 11 fens
-
-Possible: 45 fens
-Exploring: 45 fens
-
-Game 3: Winner - black
-Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_35_39.json...
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 15 fens
-Exploring: 15 fens
-
-Possible: 135 fens
-Exploring: 135 fens
-
-Possible: 9 fens
-Exploring: 9 fens
-
-Possible: 9 fens
-Exploring: 9 fens
-
-Possible: 37 fens
-Exploring: 37 fens
-
-Possible: 9 fens
-Exploring: 9 fens
-
-Possible: 5 fens
-Exploring: 5 fens
-
-Possible: 72 fens
-Exploring: 72 fens
-
-Possible: 11 fens
-Exploring: 11 fens
-
-Possible: 135 fens
-Exploring: 135 fens
-
-Possible: 115 fens
-Exploring: 115 fens
-
-Possible: 242 fens
-Exploring: 242 fens
-
-Possible: 180 fens
-Exploring: 180 fens
-
-Possible: 874 fens
-Exploring: 874 fens
-
-Possible: 3299 fens
-Exploring: 3299 fens
-
-Game 4: Winner - white
-Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_38_38.json...
-Possible: 1 fens
-ExEngine sent invalid ponder move
+chess.IllegalMoveError: illegal uci: 'c8c7' in r1kRkbnr/pp2pppp/2p1b3/4P3/2b5/2N3P1/PP1R4/2K5 b kq - 3 1
+Engine sent invalid ponder move
 Traceback (most recent call last):
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
     ponder = board.parse_uci(tokens[2].lower())
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
-    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
-chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3138, in parse_uci
+    move = Move.from_uci(uci)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 609, in from_uci
+    raise InvalidMoveError(f"invalid uci (use 0000 for null moves): {uci!r}")
+chess.InvalidMoveError: invalid uci (use 0000 for null moves): 'g7g7'
 Engine sent invalid ponder move
 Traceback (most recent call last):
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
@@ -236,55 +32,7 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
     raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
-chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
---- Logging error ---
-Traceback (most recent call last):
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
-    ponder = board.parse_uci(tokens[2].lower())
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
-    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
-chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/logging/__init__.py", line 1163, in emit
-    stream.write(msg + self.terminator)
-OSError: [Errno 28] No space left on device
-Call stack:
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1030, in _bootstrap
-    self._bootstrap_inner()
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
-    self.run()
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1010, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 195, in background
-    asyncio.run(coroutine(future))
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/runners.py", line 194, in run
-    return runner.run(main)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
-    self.run_forever()
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
-    self._run_once()
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
-    handle._run()
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1093, in _line_received
-    self.command._line_received(self, line)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1386, in _line_received
-    self.line_received(engine, line)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1726, in line_received
-    self._bestmove(engine, line.split(" ", 1)[1])
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1745, in _bestmove
-    best = _parse_uci_bestmove(engine.board, arg)
-  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1974, in _parse_uci_bestmove
-    LOGGER.exception("Engine sent invalid ponder move")
-Message: 'Engine sent invalid ponder move'
-Arguments: ()
+chess.IllegalMoveError: illegal uci: 'g8f6' in rn1RkbnB/pp2pk1p/2p1b1p1/6p1/8/PP6/2P2PPP/6K1 b q - 2 1
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -312,38 +60,74 @@ Exploring: 14 fens
 Possible: 142 fens
 Exploring: 142 fens
 
-Possible: 23 fens
-Exploring: 23 fens
+Possible: 14 fens
+Exploring: 14 fens
 
-Possible: 9 fens
-Exploring: 9 fens
+Possible: 19 fens
+Exploring: 19 fens
 
-Possible: 80 fens
-Exploring: 80 fens
+Possible: 1 fens
+Exploring: 1 fens
 
-Possible: 473 fens
-Exploring: 473 fens
+Possible: 5 fens
+Exploring: 5 fens
 
-Possible: 49 fens
-Exploring: 49 fens
+Possible: 1 fens
+Exploring: 1 fens
 
-Possible: 49 fens
-Exploring: 49 fens
+Possible: 1 fens
+Exploring: 1 fens
 
-Possible: 304 fens
-Exploring: 304 fens
+Possible: 20 fens
+Exploring: 20 fens
 
-Possible: 2106 fens
-Exploring: 2106 fens
+Possible: 162 fens
+Exploring: 162 fens
 
-Possible: 342 fens
-Exploring: 342 fens
+Possible: 199 fens
+Exploring: 199 fens
 
-Possible: 1450 fens
-Exploring: 1450 fens
+Possible: 259 fens
+Exploring: 259 fens
+
+Possible: 407 fens
+Exploring: 407 fens
+
+Possible: 679 fens
+Exploring: 679 fens
+
+Possible: 352 fens
+Exploring: 352 fens
+
+Possible: 842 fens
+Exploring: 842 fens
+
+Possible: 106 fens
+Exploring: 106 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 35 fens
+Exploring: 35 fens
+
+Possible: 64 fens
+Exploring: 64 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 74 fens
+Exploring: 74 fens
 
 Game 1: Winner - black
-Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_31_23.json...
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_00_18.json...
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -355,6 +139,44 @@ Exploring: 1 fens
 
 Possible: 1 fens
 Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_01_15.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 72 fens
+Exploring: 72 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 13 fens
+Exploring: 13 fens
 
 Possible: 1 fens
 Exploring: 1 fens
@@ -362,14 +184,17 @@ Exploring: 1 fens
 Possible: 14 fens
 Exploring: 14 fens
 
-Possible: 12 fens
-Exploring: 12 fens
+Possible: 1 fens
+Exploring: 1 fens
 
 Possible: 1 fens
 Exploring: 1 fens
 
-Possible: 11 fens
-Exploring: 11 fens
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
 
 Possible: 14 fens
 Exploring: 14 fens
@@ -377,6 +202,131 @@ Exploring: 14 fens
 Possible: 1 fens
 Exploring: 1 fens
 
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 104 fens
+Exploring: 104 fens
+
+Possible: 67 fens
+Exploring: 67 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_04_35.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 4: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_05_31.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 165 fens
+Exploring: 165 fens
+
+Possible: 1042 fens
+Exploring: 1042 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_07_42.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 6: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_09_16.json...
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -395,16 +345,14 @@ Exploring: 1 fens
 Possible: 1 fens
 Exploring: 1 fens
 
-Possible: 1 fens
-Exploring: 1 fens
+Possible: 17 fens
+Exploring: 17 fens
 
-Possible: 5 fens
-Exploring: 5 fens
+Possible: 13 fens
+Exploring: 13 fens
 
-Game 2: Winner - white
-Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_34_09.json...
-Possible: 1 fens
-Exploring: 1 fens
+Possible: 25 fens
+Exploring: 25 fens
 
 Possible: 1 fens
 Exploring: 1 fens
@@ -412,9 +360,734 @@ Exploring: 1 fens
 Possible: 22 fens
 Exploring: 22 fens
 
-Possible: 221 fens
-Exploring: 221 fens
+Possible: 1 fens
+Exploring: 1 fens
 
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 7: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_11_51.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 8: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_12_47.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_13_55.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 125 fens
+Exploring: 125 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 94 fens
+Exploring: 94 fens
+
+Possible: 66 fens
+Exploring: 66 fens
+
+Possible: 105 fens
+Exploring: 105 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 96 fens
+Exploring: 96 fens
+
+Possible: 102 fens
+Exploring: 102 fens
+
+Possible: 32 fens
+Exploring: 32 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 33 fens
+Exploring: 33 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Game 10: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_18_35.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 238 fens
+Exploring: 238 fens
+
+Possible: 860 fens
+Exploring: 860 fens
+
+Possible: 5826 fens
+Exploring: 5826 fens
+
+Possible: 1720 fens
+Exploring: 1720 fens
+
+Game 11: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_22_08.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 12: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_23_25.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 28 fens
+Exploring: 28 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 13: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_25_16.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 114 fens
+Exploring: 114 fens
+
+Possible: 642 fens
+Exploring: 642 fens
+
+Possible: 599 fens
+Exploring: 599 fens
+
+Possible: 3669 fens
+Exploring: 3669 fens
+
+Possible: 2640 fens
+Exploring: 2640 fens
+
+Possible: 115 fens
+Exploring: 115 fens
+
+Possible: 371 fens
+Exploring: 371 fens
+
+Possible: 128 fens
+Exploring: 128 fens
+
+Possible: 1268 fens
+Exploring: 1268 fens
+
+Possible: 257 fens
+Exploring: 257 fens
+
+Possible: 1048 fens
+Exploring: 1048 fens
+
+Possible: 6470 fens
+Exploring: 6470 fens
+
+Possible: 16589 fens
+Exploring: 10000 fens
+
+Possible: 567 fens
+Exploring: 567 fens
+
+Possible: 2595 fens
+Exploring: 2595 fens
+
+Possible: 12760 fens
+Exploring: 10000 fens
+
+Possible: 50458 fens
+Exploring: 10000 fens
+
+Possible: 35108 fens
+Exploring: 10000 fens
+
+Game 14: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_31_37.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 100 fens
+Exploring: 100 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 31 fens
+Exploring: 31 fens
+
+Possible: 499 fens
+Exploring: 499 fens
+
+Possible: 131 fens
+Exploring: 131 fens
+
+Possible: 77 fens
+Exploring: 77 fens
+
+Possible: 486 fens
+Exploring: 486 fens
+
+Possible: 5219 fens
+Exploring: 5219 fens
+
+Possible: 41636 fens
+Exploring: 10000 fens
+
+Possible: 646 fens
+Exploring: 646 fens
+
+Game 15: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_36_29.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 16: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_37_36.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 271 fens
+Exploring: 271 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 274 fens
+Exploring: 274 fens
+
+Possible: 3310 fens
+Exploring: 3310 fens
+
+Possible: 15869 fens
+Exploring: 10000 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Game 17: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_41_07.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 18: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_42_15.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 215 fens
+Exploring: 215 fens
+
+Possible: 640 fens
+Exploring: 640 fens
+
+Possible: 2605 fens
+Exploring: 2605 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 201 fens
+Exploring: 201 fens
+
+Possible: 1345 fens
+Exploring: 1345 fens
+
+Possible: 867 fens
+Exploring: 867 fens
+
+Possible: 107 fens
+Exploring: 107 fens
+
+Possible: 107 fens
+Exploring: 107 fens
+
+Possible: 1398 fens
+Exploring: 1398 fens
+
+Possible: 78 fens
+Exploring: 78 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 66 fens
+Exploring: 66 fens
+
+Possible: 555 fens
+Exploring: 555 fens
+
+Possible: 927 fens
+Exploring: 927 fens
+
+Possible: 7270 fens
+Exploring: 7270 fens
+
+Possible: 109 fens
+Exploring: 109 fens
+
+Possible: 182 fens
+Exploring: 182 fens
+
+Possible: 486 fens
+Exploring: 486 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_47_28.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 20: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_48_36.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 119 fens
+Exploring: 119 fens
+
+Possible: 693 fens
+Exploring: 693 fens
+
+Possible: 482 fens
+Exploring: 482 fens
+
+Possible: 2587 fens
+Exploring: 2587 fens
+
+Possible: 16801 fens
+Exploring: 10000 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Game 21: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_51_34.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 125 fens
+Exploring: 125 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 154 fens
+Exploring: 154 fens
+
+Possible: 98 fens
+Exploring: 98 fens
+
+Possible: 956 fens
+Exploring: 956 fens
+
+Possible: 611 fens
+Exploring: 611 fens
+
+Game 22: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_53_16.json...
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -430,14 +1103,805 @@ Exploring: 3 fens
 Possible: 1 fens
 Exploring: 1 fens
 
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 338 fens
+Exploring: 338 fens
+
+Possible: 1441 fens
+Exploring: 1441 fens
+
+Game 23: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_54_53.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 24: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_56_33.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_57_41.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 2 (white wins: 1, black wins: 1), Failed games: 0
+ImprovedAgent wins: 23 (white wins: 11, black wins: 12), Failed games: 0
+Draw ratio: 0.00
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'g1e2' in 8/2B2pp1/7k/2B1P3/p2Np2p/2PbP3/P1KP2PP/R3K1NR w KQ - 1 28
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 161 fens
+Exploring: 161 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-18_56_19.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 54 fens
+Exploring: 54 fens
+
+Possible: 754 fens
+Exploring: 754 fens
+
+Possible: 408 fens
+Exploring: 408 fens
+
+Possible: 2200 fens
+Exploring: 2200 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 307 fens
+Exploring: 307 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 83 fens
+Exploring: 83 fens
+
+Possible: 1325 fens
+Exploring: 1325 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 42 fens
+Exploring: 42 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_01_37.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 74 fens
+Exploring: 74 fens
+
+Possible: 407 fens
+Exploring: 407 fens
+
+Possible: 402 fens
+Exploring: 402 fens
+
+Possible: 76 fens
+Exploring: 76 fens
+
+Possible: 50 fens
+Exploring: 50 fens
+
+Possible: 591 fens
+Exploring: 591 fens
+
+Possible: 234 fens
+Exploring: 234 fens
+
+Possible: 201 fens
+Exploring: 201 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 209 fens
+Exploring: 209 fens
+
+Possible: 569 fens
+Exploring: 569 fens
+
+Possible: 92 fens
+Exploring: 92 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 178 fens
+Exploring: 178 fens
+
+Possible: 146 fens
+Exploring: 146 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_06_11.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 170 fens
+Exploring: 170 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 4: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_07_58.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 5: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_08_44.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 82 fens
+Exploring: 82 fens
+
+Possible: 969 fens
+Exploring: 969 fens
+
+Possible: 528 fens
+Exploring: 528 fens
+
+Possible: 5914 fens
+Exploring: 5914 fens
+
+Possible: 2190 fens
+Exploring: 2190 fens
+
+Possible: 6870 fens
+Exploring: 6870 fens
+
+Possible: 42073 fens
+Exploring: 10000 fens
+
+Possible: 43761 fens
+Exploring: 10000 fens
+
+Possible: 154 fens
+Exploring: 154 fens
+
+Possible: 3206 fens
+Exploring: 3206 fens
+
+Possible: 7956 fens
+Exploring: 7956 fens
+
+Possible: 6185 fens
+Exploring: 6185 fens
+
+Possible: 32749 fens
+Exploring: 10000 fens
+
+Possible: 139282 fens
+Exploring: 10000 fens
+
+Possible: 246 fens
+Exploring: 246 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 81 fens
+Exploring: 81 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
 Possible: 17 fens
 Exploring: 17 fens
 
-Possible: 93 fens
-Exploring: 93 fens
+Possible: 76 fens
+Exploring: 76 fens
 
-Game 3: Winner - black
-Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_35_40.json...
+Possible: 88 fens
+Exploring: 88 fens
+
+Game 6: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_20_42.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Game 7: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_23_05.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 82 fens
+Exploring: 82 fens
+
+Possible: 82 fens
+Exploring: 82 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 154 fens
+Exploring: 154 fens
+
+Possible: 1247 fens
+Exploring: 1247 fens
+
+Game 8: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_25_46.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 28 fens
+Exploring: 28 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 241 fens
+Exploring: 241 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 26 fens
+Exploring: 26 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_28_46.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 142 fens
+Exploring: 142 fens
+
+Possible: 89 fens
+Exploring: 89 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 207 fens
+Exploring: 207 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 10: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_31_20.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 314 fens
+Exploring: 314 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_33_11.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 202 fens
+Exploring: 202 fens
+
+Possible: 576 fens
+Exploring: 576 fens
+
+Possible: 3506 fens
+Exploring: 3506 fens
+
+Possible: 24216 fens
+Exploring: 10000 fens
+
+Possible: 43210 fens
+Exploring: 10000 fens
+
+Possible: 92746 fens
+Exploring: 10000 fens
+
+Possible: 140579 fens
+Exploring: 10000 fens
+
+Possible: 26966 fens
+Exploring: 10000 fens
+
+Possible: 101955 fens
+Exploring: 10000 fens
+
+Game 12: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_42_26.json...
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 41 fens
+Exploring: 41 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Game 13: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_44_24.json...
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -465,34 +1929,126 @@ Exploring: 1 fens
 Possible: 3 fens
 Exploring: 3 fens
 
+Possible: 52 fens
+Exploring: 52 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 31 fens
+Exploring: 31 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
 Possible: 3 fens
 Exploring: 3 fens
 
-Possible: 36 fens
-Exploring: 36 fens
+Possible: 51 fens
+Exploring: 51 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 199 fens
+Exploring: 199 fens
+
+Possible: 327 fens
+Exploring: 327 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 39 fens
+Exploring: 39 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
 
 Possible: 12 fens
 Exploring: 12 fens
 
-Possible: 45 fens
-Exploring: 45 fens
+Possible: 101 fens
+Exploring: 101 fens
 
-Possible: 561 fens
-Exploring: 561 fens
+Possible: 468 fens
+Exploring: 468 fens
 
-Possible: 186 fens
-Exploring: 186 fens
+Possible: 455 fens
+Exploring: 455 fens
 
-Possible: 1507 fens
-Exploring: 1507 fens
+Possible: 27 fens
+Exploring: 27 fens
 
-Possible: 7006 fens
-Exploring: 7006 fens
-
-Game 4: Winner - black
-Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-14_38_49.json...
+Game 14: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_49_36.json...
 Possible: 1 fens
 Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 210 fens
+Exploring: 210 fens
+
+Possible: 967 fens
+Exploring: 967 fens
+
+Game 15: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_51_22.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
 
 Possible: 1 fens
 Exploring: 1 fens
@@ -500,8 +2056,819 @@ Exploring: 1 fens
 Possible: 22 fens
 Exploring: 22 fens
 
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 31 fens
+Exploring: 31 fens
+
+Possible: 331 fens
+Exploring: 331 fens
+
+Possible: 3570 fens
+Exploring: 3570 fens
+
+Possible: 6809 fens
+Exploring: 6809 fens
+
+Possible: 1928 fens
+Exploring: 1928 fens
+
+Possible: 6985 fens
+Exploring: 6985 fens
+
+Game 16: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_55_03.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 56 fens
+Exploring: 56 fens
+
+Possible: 768 fens
+Exploring: 768 fens
+
+Possible: 811 fens
+Exploring: 811 fens
+
+Possible: 2429 fens
+Exploring: 2429 fens
+
+Possible: 149 fens
+Exploring: 149 fens
+
+Possible: 869 fens
+Exploring: 869 fens
+
+Game 17: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_58_07.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
 Possible: 15 fens
 Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 359 fens
+Exploring: 359 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 108 fens
+Exploring: 108 fens
+
+Possible: 876 fens
+Exploring: 876 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 18: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-20_04_30.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_05_38.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 214 fens
+Exploring: 214 fens
+
+Possible: 2045 fens
+Exploring: 2045 fens
+
+Possible: 640 fens
+Exploring: 640 fens
+
+Possible: 2296 fens
+Exploring: 2296 fens
+
+Possible: 264 fens
+Exploring: 264 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 124 fens
+Exploring: 124 fens
+
+Possible: 92 fens
+Exploring: 92 fens
+
+Possible: 92 fens
+Exploring: 92 fens
+
+Game 20: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-20_09_17.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 40 fens
+Exploring: 40 fens
+
+Possible: 343 fens
+Exploring: 343 fens
+
+Possible: 1730 fens
+Exploring: 1730 fens
+
+Possible: 3344 fens
+Exploring: 3344 fens
+
+Possible: 5839 fens
+Exploring: 5839 fens
+
+Possible: 9806 fens
+Exploring: 9806 fens
+
+Game 21: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_13_35.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 26 fens
+Exploring: 26 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 80 fens
+Exploring: 80 fens
+
+Possible: 665 fens
+Exploring: 665 fens
+
+Possible: 5369 fens
+Exploring: 5369 fens
+
+Possible: 45351 fens
+Exploring: 10000 fens
+
+Game 22: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-20_16_39.json...
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 23: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-20_17_43.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 24: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-20_19_13.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 75 fens
+Exploring: 75 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_22_10.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 9 (white wins: 5, black wins: 4), Failed games: 0
+ImprovedAgent wins: 16 (white wins: 8, black wins: 8), Failed games: 0
+Draw ratio: 0.00
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 67 fens
+Exploring: 67 fens
+
+Possible: 294 fens
+Exploring: 294 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-18_57_12.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 56 fens
+Exploring: 56 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-18_59_34.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 3: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_01_26.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 47 fens
+Exploring: 47 fens
+
+Possible: 298 fens
+Exploring: 298 fens
+
+Possible: 149 fens
+Exploring: 149 fens
+
+Possible: 367 fens
+Exploring: 367 fens
+
+Game 4: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_02_50.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 28 fens
+Exploring: 28 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 144 fens
+Exploring: 144 fens
+
+Possible: 106 fens
+Exploring: 106 fens
+
+Possible: 478 fens
+Exploring: 478 fens
+
+Possible: 1040 fens
+Exploring: 1040 fens
+
+Possible: 94 fens
+Exploring: 94 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_05_49.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 78 fens
+Exploring: 78 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 71 fens
+Exploring: 71 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Possible: 52 fens
+Exploring: 52 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Game 6: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_09_18.json...
+Possible: 1 fens
+Exploring: 1 fens
 
 Possible: 1 fens
 Exploring: 1 fens
@@ -512,24 +2879,771 @@ Exploring: 19 fens
 Possible: 1 fens
 Exploring: 1 fens
 
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 96 fens
+Exploring: 96 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 59 fens
+Exploring: 59 fens
+
+Possible: 586 fens
+Exploring: 586 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Game 7: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_12_25.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 153 fens
+Exploring: 153 fens
+
+Possible: 793 fens
+Exploring: 793 fens
+
+Possible: 387 fens
+Exploring: 387 fens
+
+Possible: 1110 fens
+Exploring: 1110 fens
+
+Possible: 1598 fens
+Exploring: 1598 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Game 8: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_17_44.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 68 fens
+Exploring: 68 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 378 fens
+Exploring: 378 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 220 fens
+Exploring: 220 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 32 fens
+Exploring: 32 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 73 fens
+Exploring: 73 fens
+
+Possible: 61 fens
+Exploring: 61 fens
+
+Possible: 305 fens
+Exploring: 305 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_22_14.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Game 10: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_25_10.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 241 fens
+Exploring: 241 fens
+
+Possible: 130 fens
+Exploring: 130 fens
+
+Possible: 79 fens
+Exploring: 79 fens
+
+Possible: 79 fens
+Exploring: 79 fens
+
+Possible: 724 fens
+Exploring: 724 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_27_46.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 77 fens
+Exploring: 77 fens
+
+Game 12: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_29_25.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 119 fens
+Exploring: 119 fens
+
+Possible: 356 fens
+Exploring: 356 fens
+
+Possible: 804 fens
+Exploring: 804 fens
+
+Possible: 1355 fens
+Exploring: 1355 fens
+
+Possible: 960 fens
+Exploring: 960 fens
+
+Possible: 154 fens
+Exploring: 154 fens
+
+Possible: 599 fens
+Exploring: 599 fens
+
+Possible: 4578 fens
+Exploring: 4578 fens
+
+Possible: 1292 fens
+Exploring: 1292 fens
+
+Possible: 2080 fens
+Exploring: 2080 fens
+
+Possible: 1829 fens
+Exploring: 1829 fens
+
+Possible: 18690 fens
+Exploring: 10000 fens
+
+Possible: 2591 fens
+Exploring: 2591 fens
+
+Possible: 689 fens
+Exploring: 689 fens
+
+Game 13: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_34_41.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 235 fens
+Exploring: 235 fens
+
+Possible: 196 fens
+Exploring: 196 fens
+
+Possible: 123 fens
+Exploring: 123 fens
+
+Game 14: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_36_56.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 15: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_38_15.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 16: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_39_22.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 202 fens
+Exploring: 202 fens
+
+Possible: 1533 fens
+Exploring: 1533 fens
+
+Possible: 4608 fens
+Exploring: 4608 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 181 fens
+Exploring: 181 fens
+
+Game 17: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_42_05.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 153 fens
+Exploring: 153 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 131 fens
+Exploring: 131 fens
+
+Possible: 90 fens
+Exploring: 90 fens
+
+Possible: 618 fens
+Exploring: 618 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Game 18: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_44_36.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 85 fens
+Exploring: 85 fens
+
+Possible: 310 fens
+Exploring: 310 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 157 fens
+Exploring: 157 fens
+
+Possible: 136 fens
+Exploring: 136 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 355 fens
+Exploring: 355 fens
+
+Game 19: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_48_42.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 44 fens
+Exploring: 44 fens
+
+Possible: 648 fens
+Exploring: 648 fens
+
+Possible: 5811 fens
+Exploring: 5811 fens
+
+Possible: 886 fens
+Exploring: 886 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 219 fens
+Exploring: 219 fens
+
+Possible: 171 fens
+Exploring: 171 fens
+
+Game 20: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_51_44.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 69 fens
+Exploring: 69 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 43 fens
+Exploring: 43 fens
+
+Possible: 57 fens
+Exploring: 57 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
 Possible: 2 fens
 Exploring: 2 fens
 
 Possible: 2 fens
 Exploring: 2 fens
 
-Possible: 1 fens
-Exploring: 1 fens
+Possible: 46 fens
+Exploring: 46 fens
 
-Possible: 25 fens
-Exploring: 25 fens
-
-Possible: 1 fens
-Exploring: 1 fens
-
-Possible: 25 fens
-Exploring: 25 fens
-
+Game 21: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_54_52.json...
 Possible: 1 fens
 Exploring: 1 fens
 
@@ -542,13 +3656,1797 @@ Exploring: 1 fens
 Possible: 1 fens
 Exploring: 1 fens
 
-Possible: 25 fens
-Exploring: 25 fens
+Possible: 30 fens
+Exploring: 30 fens
 
-Possible: 231 fens
-Exploring: 231 fens
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 125 fens
+Exploring: 125 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 22: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_57_54.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 132 fens
+Exploring: 132 fens
+
+Possible: 138 fens
+Exploring: 138 fens
+
+Possible: 84 fens
+Exploring: 84 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 146 fens
+Exploring: 146 fens
+
+Possible: 908 fens
+Exploring: 908 fens
+
+Possible: 6834 fens
+Exploring: 6834 fens
+
+Possible: 14923 fens
+Exploring: 10000 fens
+
+Game 23: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_01_12.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 141 fens
+Exploring: 141 fens
+
+Possible: 452 fens
+Exploring: 452 fens
+
+Possible: 268 fens
+Exploring: 268 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 150 fens
+Exploring: 150 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 431 fens
+Exploring: 431 fens
+
+Possible: 427 fens
+Exploring: 427 fens
+
+Possible: 115 fens
+Exploring: 115 fens
+
+Possible: 309 fens
+Exploring: 309 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 356 fens
+Exploring: 356 fens
+
+Possible: 1684 fens
+Exploring: 1684 fens
+
+Possible: 327 fens
+Exploring: 327 fens
+
+Possible: 1210 fens
+Exploring: 1210 fens
+
+Possible: 814 fens
+Exploring: 814 fens
+
+Possible: 489 fens
+Exploring: 489 fens
+
+Possible: 118 fens
+Exploring: 118 fens
+
+Possible: 118 fens
+Exploring: 118 fens
+
+Possible: 366 fens
+Exploring: 366 fens
+
+Possible: 189 fens
+Exploring: 189 fens
+
+Game 24: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-20_06_30.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 178 fens
+Exploring: 178 fens
+
+Possible: 180 fens
+Exploring: 180 fens
+
+Possible: 97 fens
+Exploring: 97 fens
+
+Possible: 1072 fens
+Exploring: 1072 fens
+
+Possible: 81 fens
+Exploring: 81 fens
+
+Possible: 102 fens
+Exploring: 102 fens
+
+Possible: 67 fens
+Exploring: 67 fens
+
+Possible: 238 fens
+Exploring: 238 fens
+
+Possible: 249 fens
+Exploring: 249 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 102 fens
+Exploring: 102 fens
+
+Possible: 28 fens
+Exploring: 28 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 85 fens
+Exploring: 85 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Possible: 446 fens
+Exploring: 446 fens
+
+Possible: 4538 fens
+Exploring: 4538 fens
+
+Possible: 2913 fens
+Exploring: 2913 fens
+
+Possible: 259 fens
+Exploring: 259 fens
+
+Possible: 28 fens
+Exploring: 28 fens
+
+Possible: 167 fens
+Exploring: 167 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 272 fens
+Exploring: 272 fens
+
+Possible: 2201 fens
+Exploring: 2201 fens
+
+Possible: 2371 fens
+Exploring: 2371 fens
+
+Possible: 18390 fens
+Exploring: 10000 fens
+
+Possible: 74123 fens
+Exploring: 10000 fens
+
+Possible: 122299 fens
+Exploring: 10000 fens
+
+Possible: 133684 fens
+Exploring: 10000 fens
+
+Possible: 12196 fens
+Exploring: 10000 fens
+
+Possible: 44952 fens
+Exploring: 10000 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_22_14.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 7 (white wins: 5, black wins: 2), Failed games: 0
+ImprovedAgent wins: 18 (white wins: 10, black wins: 8), Failed games: 0
+Draw ratio: 0.00
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 59 fens
+Exploring: 59 fens
+
+Possible: 24 fens
+Exploring: 24 fens
 
 Possible: 139 fens
 Exploring: 139 fens
 
-Possib
+Possible: 206 fens
+Exploring: 206 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 73 fens
+Exploring: 73 fens
+
+Possible: 73 fens
+Exploring: 73 fens
+
+Possible: 305 fens
+Exploring: 305 fens
+
+Possible: 2538 fens
+Exploring: 2538 fens
+
+Possible: 102 fens
+Exploring: 102 fens
+
+Possible: 90 fens
+Exploring: 90 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Game 1: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-18_58_51.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_00_41.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 41 fens
+Exploring: 41 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 219 fens
+Exploring: 219 fens
+
+Possible: 156 fens
+Exploring: 156 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 372 fens
+Exploring: 372 fens
+
+Possible: 3410 fens
+Exploring: 3410 fens
+
+Possible: 312 fens
+Exploring: 312 fens
+
+Possible: 58 fens
+Exploring: 58 fens
+
+Possible: 392 fens
+Exploring: 392 fens
+
+Possible: 2836 fens
+Exploring: 2836 fens
+
+Possible: 12726 fens
+Exploring: 10000 fens
+
+Possible: 256 fens
+Exploring: 256 fens
+
+Possible: 63 fens
+Exploring: 63 fens
+
+Possible: 319 fens
+Exploring: 319 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 69 fens
+Exploring: 69 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_06_42.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 68 fens
+Exploring: 68 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 142 fens
+Exploring: 142 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 24 fens
+Exploring: 24 fens
+
+Possible: 115 fens
+Exploring: 115 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Game 4: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_10_30.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 43 fens
+Exploring: 43 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 133 fens
+Exploring: 133 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 26 fens
+Exploring: 26 fens
+
+Possible: 26 fens
+Exploring: 26 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_13_29.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 172 fens
+Exploring: 172 fens
+
+Possible: 48 fens
+Exploring: 48 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 35 fens
+Exploring: 35 fens
+
+Possible: 328 fens
+Exploring: 328 fens
+
+Possible: 2049 fens
+Exploring: 2049 fens
+
+Possible: 3677 fens
+Exploring: 3677 fens
+
+Possible: 3367 fens
+Exploring: 3367 fens
+
+Possible: 2496 fens
+Exploring: 2496 fens
+
+Possible: 128 fens
+Exploring: 128 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Game 6: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_19_04.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 56 fens
+Exploring: 56 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 7: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_21_28.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 642 fens
+Exploring: 642 fens
+
+Possible: 31 fens
+Exploring: 31 fens
+
+Possible: 327 fens
+Exploring: 327 fens
+
+Possible: 278 fens
+Exploring: 278 fens
+
+Game 8: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_23_18.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 246 fens
+Exploring: 246 fens
+
+Possible: 175 fens
+Exploring: 175 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 292 fens
+Exploring: 292 fens
+
+Possible: 187 fens
+Exploring: 187 fens
+
+Possible: 972 fens
+Exploring: 972 fens
+
+Possible: 106 fens
+Exploring: 106 fens
+
+Possible: 106 fens
+Exploring: 106 fens
+
+Possible: 424 fens
+Exploring: 424 fens
+
+Possible: 68 fens
+Exploring: 68 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 62 fens
+Exploring: 62 fens
+
+Possible: 172 fens
+Exploring: 172 fens
+
+Possible: 298 fens
+Exploring: 298 fens
+
+Possible: 43 fens
+Exploring: 43 fens
+
+Possible: 73 fens
+Exploring: 73 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_27_44.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 142 fens
+Exploring: 142 fens
+
+Possible: 89 fens
+Exploring: 89 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 10: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_29_40.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 178 fens
+Exploring: 178 fens
+
+Possible: 1386 fens
+Exploring: 1386 fens
+
+Possible: 2515 fens
+Exploring: 2515 fens
+
+Possible: 14132 fens
+Exploring: 10000 fens
+
+Possible: 34884 fens
+Exploring: 10000 fens
+
+Possible: 33424 fens
+Exploring: 10000 fens
+
+Possible: 34137 fens
+Exploring: 10000 fens
+
+Game 11: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_34_51.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 164 fens
+Exploring: 164 fens
+
+Game 12: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_36_55.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 207 fens
+Exploring: 207 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Game 13: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_38_38.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 42 fens
+Exploring: 42 fens
+
+Possible: 161 fens
+Exploring: 161 fens
+
+Game 14: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-19_40_17.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 41 fens
+Exploring: 41 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 15: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-19_42_29.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 142 fens
+Exploring: 142 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 16: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_44_44.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 6 fens
+Exploring: 6 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Game 17: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_45_53.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 26 fens
+Exploring: 26 fens
+
+Possible: 341 fens
+Exploring: 341 fens
+
+Possible: 661 fens
+Exploring: 661 fens
+
+Possible: 413 fens
+Exploring: 413 fens
+
+Possible: 2819 fens
+Exploring: 2819 fens
+
+Possible: 17726 fens
+Exploring: 10000 fens
+
+Game 18: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_49_07.json...
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 144 fens
+Exploring: 144 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 134 fens
+Exploring: 134 fens
+
+Possible: 769 fens
+Exploring: 769 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 60 fens
+Exploring: 60 fens
+
+Possible: 247 fens
+Exploring: 247 fens
+
+Possible: 377 fens
+Exploring: 377 fens
+
+Possible: 292 fens
+Exploring: 292 fens
+
+Possible: 179 fens
+Exploring: 179 fens
+
+Possible: 78 fens
+Exploring: 78 fens
+
+Possible: 46 fens
+Exploring: 46 fens
+
+Possible: 145 fens
+Exploring: 145 fens
+
+Possible: 652 fens
+Exploring: 652 fens
+
+Possible: 1855 fens
+Exploring: 1855 fens
+
+Possible: 5097 fens
+Exploring: 5097 fens
+
+Possible: 175 fens
+Exploring: 175 fens
+
+Possible: 10 fens
+Exploring: 10 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-19_54_42.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 63 fens
+Exploring: 63 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 105 fens
+Exploring: 105 fens
+
+Possible: 90 fens
+Exploring: 90 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 67 fens
+Exploring: 67 fens
+
+Possible: 585 fens
+Exploring: 585 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 20: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-19_57_06.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 128 fens
+Exploring: 128 fens
+
+Possible: 655 fens
+Exploring: 655 fens
+
+Possible: 1786 fens
+Exploring: 1786 fens
+
+Possible: 3847 fens
+Exploring: 3847 fens
+
+Possible: 286 fens
+Exploring: 286 fens
+
+Possible: 1944 fens
+Exploring: 1944 fens
+
+Possible: 2927 fens
+Exploring: 2927 fens
+
+Possible: 400 fens
+Exploring: 400 fens
+
+Possible: 4135 fens
+Exploring: 4135 fens
+
+Possible: 3618 fens
+Exploring: 3618 fens
+
+Possible: 5257 fens
+Exploring: 5257 fens
+
+Possible: 8647 fens
+Exploring: 8647 fens
+
+Possible: 29609 fens
+Exploring: 10000 fens
+
+Possible: 6138 fens
+Exploring: 6138 fens
+
+Possible: 39661 fens
+Exploring: 10000 fens
+
+Game 21: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_03_12.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 217 fens
+Exploring: 217 fens
+
+Possible: 2339 fens
+Exploring: 2339 fens
+
+Possible: 3938 fens
+Exploring: 3938 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 212 fens
+Exploring: 212 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 223 fens
+Exploring: 223 fens
+
+Possible: 2945 fens
+Exploring: 2945 fens
+
+Possible: 81 fens
+Exploring: 81 fens
+
+Possible: 1525 fens
+Exploring: 1525 fens
+
+Possible: 13597 fens
+Exploring: 10000 fens
+
+Possible: 1565 fens
+Exploring: 1565 fens
+
+Possible: 131 fens
+Exploring: 131 fens
+
+Possible: 131 fens
+Exploring: 131 fens
+
+Possible: 1658 fens
+Exploring: 1658 fens
+
+Possible: 453 fens
+Exploring: 453 fens
+
+Possible: 3437 fens
+Exploring: 3437 fens
+
+Possible: 5138 fens
+Exploring: 5138 fens
+
+Possible: 1915 fens
+Exploring: 1915 fens
+
+Possible: 15279 fens
+Exploring: 10000 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Game 22: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-20_11_20.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Possible: 0 fens
+No possible fens
+Game 23: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-20_12_47.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 127 fens
+Exploring: 127 fens
+
+Possible: 13 fens
+Exploring: 13 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 78 fens
+Exploring: 78 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 78 fens
+Exploring: 78 fens
+
+Possible: 531 fens
+Exploring: 531 fens
+
+Possible: 447 fens
+Exploring: 447 fens
+
+Possible: 2470 fens
+Exploring: 2470 fens
+
+Possible: 2481 fens
+Exploring: 2481 fens
+
+Possible: 5540 fens
+Exploring: 5540 fens
+
+Possible: 1442 fens
+Exploring: 1442 fens
+
+Possible: 6015 fens
+Exploring: 6015 fens
+
+Possible: 33527 fens
+Exploring: 10000 fens
+
+Game 24: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-20_37_32.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 134 fens
+Exploring: 134 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-20_40_44.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 11 (white wins: 5, black wins: 6), Failed games: 0
+ImprovedAgent wins: 14 (white wins: 6, black wins: 8), Failed games: 0
+Draw ratio: 0.00
