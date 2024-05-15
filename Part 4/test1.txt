@@ -1,0 +1,266 @@
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'f1g1' in r4rk1/ppp2ppp/2nb4/4p3/8/3P1N1b/PPPPPPKP/RNBQKR2 w Q - 1 14
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 216 fens
+Exploring: 216 fens
+
+Possible: 461 fens
+Exploring: 461 fens
+
+Possible: 3160 fens
+Exploring: 3160 fens
+
+Game 1: Winner - white
+Saving replay to TroutBot-ImprovedAgent-white-2024_05_15-14_29_57.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 57 fens
+Exploring: 57 fens
+
+Possible: 41 fens
+Exploring: 41 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 7 fens
+Exploring: 7 fens
+
+Possible: 66 fens
+Exploring: 66 fens
+
+Possible: 80 fens
+Exploring: 80 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 80 fens
+Exploring: 80 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Possible: 8 fens
+Exploring: 8 fens
+
+Possible: 120 fens
+Exploring: 120 fens
+
+Possible: 1372 fens
+Exploring: 1372 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_33_39.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 16 fens
+Exploring: 16 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Possible: 257 fens
+Exploring: 257 fens
+
+Possible: 1894 fens
+Exploring: 1894 fens
+
+Possible: 485 fens
+Exploring: 485 fens
+
+Possible: 225 fens
+Exploring: 225 fens
+
+Possible: 926 fens
+Exploring: 926 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_38_05.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Game 4: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_39_55.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 69 fens
+Exploring: 69 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 55 fens
+Exploring: 55 fens
+
+Possible: 63 fens
+Exploring: 63 fens
+
+Possible: 20 fens
+Exploring: 20 fens
+
+Po

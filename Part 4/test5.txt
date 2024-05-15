@@ -1,0 +1,554 @@
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'e5h5' in rnbqkrk1/pp1p2pP/2p5/4r3/4p3/8/PPP1K1P1/R4R2 b q - 0 1
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'd7d5' in rnbqkR2/pp1p2pk/2p5/4r3/4p3/8/PPP1K1P1/R7 b q - 0 1
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 71 fens
+Exploring: 71 fens
+
+Possible: 38 fens
+Exploring: 38 fens
+
+Possible: 29 fens
+Exploring: 29 fens
+
+Possible: 222 fens
+Exploring: 222 fens
+
+Possible: 1623 fens
+Exploring: 1623 fens
+
+Possible: 72 fens
+Exploring: 72 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 109 fens
+Exploring: 109 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 4 fens
+Exploring: 4 fens
+
+Possible: 87 fens
+Exploring: 87 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_31_07.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 227 fens
+Exploring: 227 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 21 fens
+Exploring: 21 fens
+
+Possible: 194 fens
+Exploring: 194 fens
+
+Possible: 185 fens
+Exploring: 185 fens
+
+Possible: 531 fens
+Exploring: 531 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_34_06.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 27 fens
+Exploring: 27 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 53 fens
+Exploring: 53 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_35_39.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 37 fens
+Exploring: 37 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Possible: 72 fens
+Exploring: 72 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 135 fens
+Exploring: 135 fens
+
+Possible: 115 fens
+Exploring: 115 fens
+
+Possible: 242 fens
+Exploring: 242 fens
+
+Possible: 180 fens
+Exploring: 180 fens
+
+Possible: 874 fens
+Exploring: 874 fens
+
+Possible: 3299 fens
+Exploring: 3299 fens
+
+Game 4: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_38_38.json...
+Possible: 1 fens
+ExEngine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'd8h4' in rn1qkR2/pp1k2p1/2n1p1p1/3pP3/3P1N2/2P5/PP3PP1/R1B1K3 b Qq - 0 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 195, in background
+    asyncio.run(coroutine(future))
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1093, in _line_received
+    self.command._line_received(self, line)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1386, in _line_received
+    self.line_received(engine, line)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1726, in line_received
+    self._bestmove(engine, line.split(" ", 1)[1])
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1745, in _bestmove
+    best = _parse_uci_bestmove(engine.board, arg)
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1974, in _parse_uci_bestmove
+    LOGGER.exception("Engine sent invalid ponder move")
+Message: 'Engine sent invalid ponder move'
+Arguments: ()
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 142 fens
+Exploring: 142 fens
+
+Possible: 23 fens
+Exploring: 23 fens
+
+Possible: 9 fens
+Exploring: 9 fens
+
+Possible: 80 fens
+Exploring: 80 fens
+
+Possible: 473 fens
+Exploring: 473 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 49 fens
+Exploring: 49 fens
+
+Possible: 304 fens
+Exploring: 304 fens
+
+Possible: 2106 fens
+Exploring: 2106 fens
+
+Possible: 342 fens
+Exploring: 342 fens
+
+Possible: 1450 fens
+Exploring: 1450 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_31_23.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 11 fens
+Exploring: 11 fens
+
+Possible: 14 fens
+Exploring: 14 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 18 fens
+Exploring: 18 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 2: Winner - white
+Saving replay to ImprovedAgent-TroutBot-white-2024_05_15-14_34_09.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 221 fens
+Exploring: 221 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 17 fens
+Exploring: 17 fens
+
+Possible: 93 fens
+Exploring: 93 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-ImprovedAgent-black-2024_05_15-14_35_40.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 30 fens
+Exploring: 30 fens
+
+Possible: 65 fens
+Exploring: 65 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 3 fens
+Exploring: 3 fens
+
+Possible: 36 fens
+Exploring: 36 fens
+
+Possible: 12 fens
+Exploring: 12 fens
+
+Possible: 45 fens
+Exploring: 45 fens
+
+Possible: 561 fens
+Exploring: 561 fens
+
+Possible: 186 fens
+Exploring: 186 fens
+
+Possible: 1507 fens
+Exploring: 1507 fens
+
+Possible: 7006 fens
+Exploring: 7006 fens
+
+Game 4: Winner - black
+Saving replay to ImprovedAgent-TroutBot-black-2024_05_15-14_38_49.json...
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 22 fens
+Exploring: 22 fens
+
+Possible: 15 fens
+Exploring: 15 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 19 fens
+Exploring: 19 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 2 fens
+Exploring: 2 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 1 fens
+Exploring: 1 fens
+
+Possible: 25 fens
+Exploring: 25 fens
+
+Possible: 231 fens
+Exploring: 231 fens
+
+Possible: 139 fens
+Exploring: 139 fens
+
+Possib
