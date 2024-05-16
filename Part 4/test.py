@@ -92,6 +92,6 @@ if __name__ == '__main__':
 
     # Choose any two bots
     bot1 = TroutBot()
-    bot2 = ImprovedAgent()
+    bot2 = RandomSensing()
 
     main(bot1, bot2)
