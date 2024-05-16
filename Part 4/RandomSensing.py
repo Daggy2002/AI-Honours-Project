@@ -1,3 +1,7 @@
+# 2430888
+# 2436109
+# 2425639
+
 import chess.engine
 import random
 from reconchess import *
@@ -10,7 +14,7 @@ import platform
 if platform.system() == 'Windows':
     stockfish_path = './stockfish-windows-x86-64-avx2.exe'
 elif platform.system() == 'Linux':
-    stockfish_path = './stockfish-ubuntu-x86-64-avx2'
+    stockfish_path = '/opt/stockfish/stockfish'
 elif platform.system() == 'Darwin':
     stockfish_path = './stockfish-macos-m1-apple-silicon'
 else:

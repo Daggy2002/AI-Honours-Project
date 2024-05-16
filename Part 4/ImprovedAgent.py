@@ -1,3 +1,7 @@
+# 2430888
+# 2436109
+# 2425639
+
 import chess.engine
 import random
 from reconchess import *
@@ -10,7 +14,7 @@ import platform
 if platform.system() == 'Windows':
     stockfish_path = './stockfish-windows-x86-64-avx2.exe'
 elif platform.system() == 'Linux':
-    stockfish_path = './stockfish-ubuntu-x86-64-avx2'
+    stockfish_path = '/opt/stockfish/stockfish'
 elif platform.system() == 'Darwin':
     stockfish_path = './stockfish-macos-m1-apple-silicon'
 else:
@@ -22,7 +26,7 @@ piece_values = {
     chess.BISHOP: 3,
     chess.ROOK: 5,
     chess.QUEEN: 9,
-    chess.KING: 10  # You may want to assign a higher value for the king
+    chess.KING: 10
 }
 
 
@@ -147,97 +151,6 @@ class ImprovedAgent(Player):
                 filtered_fens.add(fen)
 
         self.possible_fens = filtered_fens
-
-    # This gives us 0.73 win ratio
-    # def choose_move(self, move_actions: list[chess.Move], seconds_left: float) -> Optional[chess.Move]:
-    #     valid_fens = set()
-
-    #     for fen in self.possible_fens:
-    #         board = chess.Board(fen)
-    #         if all(move in move_actions for move in board.pseudo_legal_moves):
-    #             valid_fens.add(fen)
-
-    #     self.possible_fens = valid_fens
-
-    #     time_limit = min(seconds_left, 10)  # adjust the time limit as needed
-    #     move_counts = {}
-
-    #     print(f"Possible: {len(self.possible_fens)} fens")
-
-    #     if len(self.possible_fens) > 10000:
-    #         self.possible_fens = set(random.sample(
-    #             list(self.possible_fens), 10000))
-
-    #     # Make sure not divide by 0
-    #     if len(self.possible_fens) == 0:
-    #         print("No possible fens")
-    #         return None
-
-    #     time_limit_per_fen = time_limit / len(self.possible_fens)
-
-    #     print(f"Exploring: {len(self.possible_fens)} fens")
-    #     print()
-
-    #     # check_count = 0
-    #     # for fen in self.possible_fens:
-    #     #     curr_board = chess.Board(fen)
-    #     #     if curr_board.is_check():
-    #     #         check_count += 1
-
-    #     # # Check if majority of boards are in check
-    #     # handle_check = check_count > len(self.possible_fens) // 2
-
-    #     for fen in self.possible_fens:
-    #         curr_board = chess.Board(fen)
-
-    #         # if handle_check and curr_board.is_check():
-    #         #     legal_moves = [move for move in curr_board.pseudo_legal_moves
-    #         #                    if move in move_actions and not curr_board.is_into_check(move)]
-    #         #     if legal_moves:
-    #         #         # If there are legal moves that don't leave the king in check, choose one randomly
-    #         #         best_move = random.choice(legal_moves)
-    #         #         move_counts[best_move] = move_counts.get(best_move, 0) + 1
-    #         #         if best_move in move_actions:
-    #         #             print("LOG: King in check")
-    #         #             return best_move
-
-    #         # If the king is not in check (or not the majority case), proceed with the existing logic
-    #         enemy_king_square = curr_board.king(not self.color)
-
-    #         if enemy_king_square:
-    #             enemy_king_attackers = curr_board.attackers(
-    #                 self.color, enemy_king_square)
-
-    #             if enemy_king_attackers:
-    #                 attacker_square = enemy_king_attackers.pop()
-    #                 move = chess.Move(attacker_square, enemy_king_square)
-    #                 # Check if capturing doesn't leave king in check
-    #                 if not curr_board.is_into_check(move):
-    #                     move_counts[move] = move_counts.get(move, 0) + 1
-
-    #                     if move in move_actions:
-    #                         return move
-
-    #         try:
-    #             move = self.engine.play(
-    #                 curr_board, chess.engine.Limit(time=time_limit_per_fen))
-    #             # Check if engine move doesn't leave king in check
-    #             if not curr_board.is_into_check(move.move):
-    #                 move_counts[move.move] = move_counts.get(move.move, 0) + 1
-    #         except (chess.engine.EngineTerminatedError, chess.engine.EngineError):
-    #             self.engine = chess.engine.SimpleEngine.popen_uci(
-    #                 stockfish_path, setpgrp=True)
-    #         except chess.IllegalMoveError:
-    #             pass
-
-    #     if not move_counts:
-    #         return None
-
-    #     most_popular_count = max(move_counts.values())
-    #     best_moves = [move for move, count in move_counts.items()
-    #                   if count == most_popular_count]
-    #     best_move = np.random.choice(best_moves)
-    #     return best_move
 
     def choose_move(self, move_actions: list[chess.Move], seconds_left: float) -> Optional[chess.Move]:
         valid_fens = set()
