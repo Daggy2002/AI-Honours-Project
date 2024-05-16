@@ -1,0 +1,9921 @@
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'a8b8' in r1b1kbnr/ppN1kppp/4pn2/8/2P2R2/8/PP3PPP/2R2K2 b kq - 0 1
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'e1d1' in 6k1/5p2/8/p7/P2P2r1/5p2/1r3ppP/R3K1K1 w Q - 0 39
+RandomSensing Agent
+21 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+264 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+16 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_49_04.json...
+RandomSensing Agent
+26 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+679 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+762 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+469 before sensing
+Possible: 287 fens
+Exploring: 287 fens
+
+RandomSensing Agent
+5443 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+316 before sensing
+Possible: 302 fens
+Exploring: 302 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+287 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+Game 2: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-15_50_56.json...
+RandomSensing Agent
+305 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 253 fens
+Exploring: 253 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+59 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_51_41.json...
+RandomSensing Agent
+22 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+756 before sensing
+Possible: 525 fens
+Exploring: 525 fens
+
+RandomSensing Agent
+60 before sensing
+Possible: 48 fens
+Exploring: 48 fens
+
+RandomSensing Agent
+1277 before sensing
+Possible: 282 fens
+Exploring: 282 fens
+
+RandomSensing Agent
+6394 before sensing
+Possible: 279 fens
+Exploring: 279 fens
+
+RandomSensing Agent
+6623 before sensing
+Possible: 5324 fens
+Exploring: 5324 fens
+
+RandomSensing Agent
+105780 before sensing
+Possible: 94174 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+15839 before sensing
+Possible: 3021 fens
+Exploring: 3021 fens
+
+RandomSensing Agent
+95353 before sensing
+Possible: 15694 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+762 before sensing
+Possible: 707 fens
+Exploring: 707 fens
+
+RandomSensing Agent
+20854 before sensing
+Possible: 7010 fens
+Exploring: 7010 fens
+
+Game 4: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-15_54_52.json...
+RandomSensing Agent
+140924 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+700 before sensing
+Possible: 684 fens
+Exploring: 684 fens
+
+RandomSensing Agent
+143 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+633 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_56_11.json...
+RandomSensing Agent
+18 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+264 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+518 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+Game 6: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-15_57_30.json...
+RandomSensing Agent
+453 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+542 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+1048 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 7: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_58_59.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 156 fens
+Exploring: 156 fens
+
+RandomSensing Agent
+2811 before sensing
+Possible: 124 fens
+Exploring: 124 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 11 fens
+Exploring: 11 fens
+
+RandomSensing Agent
+387 before sensing
+Possible: 305 fens
+Exploring: 305 fens
+
+RandomSensing Agent
+8150 before sensing
+Possible: 1933 fens
+Exploring: 1933 fens
+
+RandomSensing Agent
+51948 before sensing
+Possible: 1982 fens
+Exploring: 1982 fens
+
+RandomSensing Agent
+44029 before sensing
+Possible: 1440 fens
+Exploring: 1440 fens
+
+RandomSensing Agent
+1686 before sensing
+Possible: 69 fens
+Exploring: 69 fens
+
+RandomSensing Agent
+2889 before sensing
+Possible: 881 fens
+Exploring: 881 fens
+
+RandomSensing Agent
+22749 before sensing
+Possible: 152 fens
+Exploring: 152 fens
+
+RandomSensing Agent
+146 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+1022 before sensing
+Possible: 105 fens
+Exploring: 105 fens
+
+RandomSensing Agent
+2412 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+469 before sensing
+Possible: 241 fens
+Exploring: 241 fens
+
+RandomSensing Agent
+5352 before sensing
+Possible: 670 fens
+Exploring: 670 fens
+
+RandomSensing Agent
+15346 before sensing
+Possible: 151 fens
+Exploring: 151 fens
+
+RandomSensing Agent
+3034 before sensing
+Possible: 227 fens
+Exploring: 227 fens
+
+RandomSensing Agent
+3946 before sensing
+Possible: 1105 fens
+Exploring: 1105 fens
+
+RandomSensing Agent
+2567 before sensing
+Possible: 1304 fens
+Exploring: 1304 fens
+
+RandomSensing Agent
+16208 before sensing
+Possible: 10838 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+11316 before sensing
+Possible: 104 fens
+Exploring: 104 fens
+
+RandomSensing Agent
+642 before sensing
+Possible: 639 fens
+Exploring: 639 fens
+
+RandomSensing Agent
+6257 before sensing
+Possible: 467 fens
+Exploring: 467 fens
+
+RandomSensing Agent
+4178 before sensing
+Possible: 3881 fens
+Exploring: 3881 fens
+
+RandomSensing Agent
+24375 before sensing
+Possible: 8147 fens
+Exploring: 8147 fens
+
+RandomSensing Agent
+30236 before sensing
+Possible: 21424 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+24072 before sensing
+Possible: 19875 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+7919 before sensing
+Possible: 1680 fens
+Exploring: 1680 fens
+
+RandomSensing Agent
+7367 before sensing
+Possible: 5161 fens
+Exploring: 5161 fens
+
+RandomSensing Agent
+11907 before sensing
+Possible: 496 fens
+Exploring: 496 fens
+
+RandomSensing Agent
+3821 before sensing
+Possible: 2066 fens
+Exploring: 2066 fens
+
+Game 8: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_09_23.json...
+RandomSensing Agent
+172 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 144 fens
+Exploring: 144 fens
+
+RandomSensing Agent
+2546 before sensing
+Possible: 2487 fens
+Exploring: 2487 fens
+
+RandomSensing Agent
+825 before sensing
+Possible: 48 fens
+Exploring: 48 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+168 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+1148 before sensing
+Possible: 601 fens
+Exploring: 601 fens
+
+RandomSensing Agent
+572 before sensing
+Possible: 364 fens
+Exploring: 364 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+624 before sensing
+Possible: 383 fens
+Exploring: 383 fens
+
+RandomSensing Agent
+7414 before sensing
+Possible: 492 fens
+Exploring: 492 fens
+
+Game 9: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_11_46.json...
+RandomSensing Agent
+483 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+756 before sensing
+Possible: 225 fens
+Exploring: 225 fens
+
+RandomSensing Agent
+5748 before sensing
+Possible: 4671 fens
+Exploring: 4671 fens
+
+RandomSensing Agent
+72135 before sensing
+Possible: 55 fens
+Exploring: 55 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+Game 10: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_13_07.json...
+RandomSensing Agent
+1216 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+633 before sensing
+Possible: 624 fens
+Exploring: 624 fens
+
+RandomSensing Agent
+10322 before sensing
+Possible: 119 fens
+Exploring: 119 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1018 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+895 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+53 before sensing
+Possible: 44 fens
+Exploring: 44 fens
+
+RandomSensing Agent
+1447 before sensing
+Possible: 1128 fens
+Exploring: 1128 fens
+
+RandomSensing Agent
+342 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+319 before sensing
+Possible: 117 fens
+Exploring: 117 fens
+
+RandomSensing Agent
+4904 before sensing
+Possible: 913 fens
+Exploring: 913 fens
+
+RandomSensing Agent
+896 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+395 before sensing
+Possible: 70 fens
+Exploring: 70 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+810 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+RandomSensing Agent
+298 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+928 before sensing
+Possible: 532 fens
+Exploring: 532 fens
+
+RandomSensing Agent
+8447 before sensing
+Possible: 4332 fens
+Exploring: 4332 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_31_54.json...
+RandomSensing Agent
+4333 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 145 fens
+Exploring: 145 fens
+
+RandomSensing Agent
+2647 before sensing
+Possible: 2397 fens
+Exploring: 2397 fens
+
+RandomSensing Agent
+40575 before sensing
+Possible: 13984 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+749 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+677 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+1062 before sensing
+Possible: 53 fens
+Exploring: 53 fens
+
+RandomSensing Agent
+711 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+828 before sensing
+Possible: 435 fens
+Exploring: 435 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+307 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+103 before sensing
+Possible: 86 fens
+Exploring: 86 fens
+
+RandomSensing Agent
+311 before sensing
+Possible: 227 fens
+Exploring: 227 fens
+
+RandomSensing Agent
+369 before sensing
+Possible: 361 fens
+Exploring: 361 fens
+
+RandomSensing Agent
+1265 before sensing
+Possible: 1054 fens
+Exploring: 1054 fens
+
+RandomSensing Agent
+3025 before sensing
+Possible: 1370 fens
+Exploring: 1370 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 8 fens
+Exploring: 8 fens
+
+RandomSensing Agent
+53 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+145 before sensing
+Possible: 142 fens
+Exploring: 142 fens
+
+RandomSensing Agent
+433 before sensing
+Possible: 361 fens
+Exploring: 361 fens
+
+RandomSensing Agent
+63 before sensing
+Possible: 53 fens
+Exploring: 53 fens
+
+RandomSensing Agent
+366 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+56 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+56 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+281 before sensing
+Possible: 211 fens
+Exploring: 211 fens
+
+RandomSensing Agent
+1423 before sensing
+Possible: 136 fens
+Exploring: 136 fens
+
+Game 12: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_37_20.json...
+RandomSensing Agent
+698 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+650 before sensing
+Possible: 45 fens
+Exploring: 45 fens
+
+RandomSensing Agent
+27 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+78 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+91 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+588 before sensing
+Possible: 456 fens
+Exploring: 456 fens
+
+RandomSensing Agent
+10773 before sensing
+Possible: 8512 fens
+Exploring: 8512 fens
+
+RandomSensing Agent
+2759 before sensing
+Possible: 174 fens
+Exploring: 174 fens
+
+RandomSensing Agent
+4509 before sensing
+Possible: 418 fens
+Exploring: 418 fens
+
+RandomSensing Agent
+365 before sensing
+Possible: 164 fens
+Exploring: 164 fens
+
+RandomSensing Agent
+2677 before sensing
+Possible: 1124 fens
+Exploring: 1124 fens
+
+RandomSensing Agent
+14139 before sensing
+Possible: 897 fens
+Exploring: 897 fens
+
+RandomSensing Agent
+1608 before sensing
+Possible: 1369 fens
+Exploring: 1369 fens
+
+RandomSensing Agent
+17422 before sensing
+Possible: 14232 fens
+Exploring: 10000 fens
+
+Game 13: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_40_13.json...
+RandomSensing Agent
+3013 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+27 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+464 before sensing
+Possible: 458 fens
+Exploring: 458 fens
+
+RandomSensing Agent
+625 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 14: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_42_46.json...
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+149 before sensing
+Possible: 137 fens
+Exploring: 137 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 15: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_43_55.json...
+RandomSensing Agent
+6 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 158 fens
+Exploring: 158 fens
+
+RandomSensing Agent
+2917 before sensing
+Possible: 124 fens
+Exploring: 124 fens
+
+RandomSensing Agent
+556 before sensing
+Possible: 528 fens
+Exploring: 528 fens
+
+RandomSensing Agent
+131 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+732 before sensing
+Possible: 531 fens
+Exploring: 531 fens
+
+RandomSensing Agent
+282 before sensing
+Possible: 275 fens
+Exploring: 275 fens
+
+Game 16: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_45_48.json...
+RandomSensing Agent
+5117 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+732 before sensing
+Possible: 505 fens
+Exploring: 505 fens
+
+RandomSensing Agent
+8012 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1293 before sensing
+Possible: 554 fens
+Exploring: 554 fens
+
+RandomSensing Agent
+12602 before sensing
+Possible: 11641 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1195 before sensing
+Possible: 624 fens
+Exploring: 624 fens
+
+RandomSensing Agent
+587 before sensing
+Possible: 566 fens
+Exploring: 566 fens
+
+RandomSensing Agent
+18021 before sensing
+Possible: 1208 fens
+Exploring: 1208 fens
+
+Game 17: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_47_30.json...
+RandomSensing Agent
+1030 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+508 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+516 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+7 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+691 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+Game 18: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_49_12.json...
+RandomSensing Agent
+778 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_50_19.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+723 before sensing
+Possible: 651 fens
+Exploring: 651 fens
+
+RandomSensing Agent
+13739 before sensing
+Possible: 561 fens
+Exploring: 561 fens
+
+RandomSensing Agent
+6160 before sensing
+Possible: 6128 fens
+Exploring: 6128 fens
+
+RandomSensing Agent
+100454 before sensing
+Possible: 98101 fens
+Exploring: 10000 fens
+
+Game 20: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_52_23.json...
+RandomSensing Agent
+38632 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+331 before sensing
+Possible: 329 fens
+Exploring: 329 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+Game 21: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_53_34.json...
+RandomSensing Agent
+34 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 45 fens
+Exploring: 45 fens
+
+RandomSensing Agent
+1174 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+568 before sensing
+Possible: 191 fens
+Exploring: 191 fens
+
+RandomSensing Agent
+4491 before sensing
+Possible: 3648 fens
+Exploring: 3648 fens
+
+Game 22: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_55_19.json...
+RandomSensing Agent
+26484 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+664 before sensing
+Possible: 563 fens
+Exploring: 563 fens
+
+RandomSensing Agent
+8954 before sensing
+Possible: 336 fens
+Exploring: 336 fens
+
+RandomSensing Agent
+144 before sensing
+Possible: 128 fens
+Exploring: 128 fens
+
+Game 23: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_56_02.json...
+RandomSensing Agent
+129 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+806 before sensing
+Possible: 762 fens
+Exploring: 762 fens
+
+RandomSensing Agent
+423 before sensing
+Possible: 254 fens
+Exploring: 254 fens
+
+RandomSensing Agent
+4929 before sensing
+Possible: 4207 fens
+Exploring: 4207 fens
+
+RandomSensing Agent
+42245 before sensing
+Possible: 31529 fens
+Exploring: 10000 fens
+
+Game 24: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_57_49.json...
+RandomSensing Agent
+29559 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 144 fens
+Exploring: 144 fens
+
+RandomSensing Agent
+2546 before sensing
+Possible: 2487 fens
+Exploring: 2487 fens
+
+RandomSensing Agent
+41292 before sensing
+Possible: 920 fens
+Exploring: 920 fens
+
+RandomSensing Agent
+477 before sensing
+Possible: 447 fens
+Exploring: 447 fens
+
+RandomSensing Agent
+278 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+426 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+461 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+469 before sensing
+Possible: 441 fens
+Exploring: 441 fens
+
+RandomSensing Agent
+9621 before sensing
+Possible: 5543 fens
+Exploring: 5543 fens
+
+RandomSensing Agent
+77782 before sensing
+Possible: 66668 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+2274 before sensing
+Possible: 67 fens
+Exploring: 67 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-17_00_25.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 8 (white wins: 5, black wins: 3), Failed games: 0
+RandomSensing wins: 17 (white wins: 9, black wins: 8), Failed games: 0
+Draw ratio: 0.00
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'e7e6' in r1bqkbk1/pppppppB/8/6N1/8/2P5/P1P2PK1/4RR2 b q - 0 1
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 262 fens
+Exploring: 262 fens
+
+RandomSensing Agent
+4295 before sensing
+Possible: 188 fens
+Exploring: 188 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+639 before sensing
+Possible: 573 fens
+Exploring: 573 fens
+
+RandomSensing Agent
+361 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+565 before sensing
+Possible: 431 fens
+Exploring: 431 fens
+
+RandomSensing Agent
+7312 before sensing
+Possible: 5420 fens
+Exploring: 5420 fens
+
+RandomSensing Agent
+66367 before sensing
+Possible: 48591 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1157 before sensing
+Possible: 713 fens
+Exploring: 713 fens
+
+RandomSensing Agent
+18294 before sensing
+Possible: 4163 fens
+Exploring: 4163 fens
+
+Game 1: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-15_50_00.json...
+RandomSensing Agent
+4164 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+596 before sensing
+Possible: 588 fens
+Exploring: 588 fens
+
+RandomSensing Agent
+99 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+653 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+486 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+465 before sensing
+Possible: 427 fens
+Exploring: 427 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+847 before sensing
+Possible: 519 fens
+Exploring: 519 fens
+
+RandomSensing Agent
+11526 before sensing
+Possible: 248 fens
+Exploring: 248 fens
+
+RandomSensing Agent
+7226 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+114 before sensing
+Possible: 89 fens
+Exploring: 89 fens
+
+RandomSensing Agent
+2844 before sensing
+Possible: 72 fens
+Exploring: 72 fens
+
+RandomSensing Agent
+2561 before sensing
+Possible: 660 fens
+Exploring: 660 fens
+
+RandomSensing Agent
+15255 before sensing
+Possible: 11873 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+239 before sensing
+Possible: 202 fens
+Exploring: 202 fens
+
+RandomSensing Agent
+54 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+Game 2: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-15_55_09.json...
+RandomSensing Agent
+347 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1073 before sensing
+Possible: 394 fens
+Exploring: 394 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+23 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+739 before sensing
+Possible: 325 fens
+Exploring: 325 fens
+
+RandomSensing Agent
+9043 before sensing
+Possible: 7408 fens
+Exploring: 7408 fens
+
+RandomSensing Agent
+19898 before sensing
+Possible: 19230 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+179809 before sensing
+Possible: 526 fens
+Exploring: 526 fens
+
+RandomSensing Agent
+375 before sensing
+Possible: 371 fens
+Exploring: 371 fens
+
+RandomSensing Agent
+362 before sensing
+Possible: 333 fens
+Exploring: 333 fens
+
+RandomSensing Agent
+9712 before sensing
+Possible: 69 fens
+Exploring: 69 fens
+
+RandomSensing Agent
+2683 before sensing
+Possible: 2520 fens
+Exploring: 2520 fens
+
+Game 3: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_22_29.json...
+RandomSensing Agent
+2221 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+731 before sensing
+Possible: 293 fens
+Exploring: 293 fens
+
+RandomSensing Agent
+6911 before sensing
+Possible: 6641 fens
+Exploring: 6641 fens
+
+RandomSensing Agent
+80 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+1010 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+749 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+246 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+814 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+1110 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+8 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+772 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+Game 4: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_25_14.json...
+RandomSensing Agent
+452 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+374 before sensing
+Possible: 352 fens
+Exploring: 352 fens
+
+RandomSensing Agent
+6380 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+57 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+55 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+25 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+484 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+16 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+80 before sensing
+Possible: 66 fens
+Exploring: 66 fens
+
+RandomSensing Agent
+1674 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+487 before sensing
+Possible: 192 fens
+Exploring: 192 fens
+
+RandomSensing Agent
+4157 before sensing
+Possible: 3785 fens
+Exploring: 3785 fens
+
+Game 5: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_46_14.json...
+RandomSensing Agent
+3673 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 156 fens
+Exploring: 156 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 6: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_47_21.json...
+RandomSensing Agent
+57 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 343 fens
+Exploring: 343 fens
+
+RandomSensing Agent
+4716 before sensing
+Possible: 4589 fens
+Exploring: 4589 fens
+
+RandomSensing Agent
+62109 before sensing
+Possible: 634 fens
+Exploring: 634 fens
+
+RandomSensing Agent
+300 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+824 before sensing
+Possible: 746 fens
+Exploring: 746 fens
+
+RandomSensing Agent
+14969 before sensing
+Possible: 13416 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+181725 before sensing
+Possible: 8148 fens
+Exploring: 8148 fens
+
+RandomSensing Agent
+163486 before sensing
+Possible: 64779 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+7776 before sensing
+Possible: 7190 fens
+Exploring: 7190 fens
+
+RandomSensing Agent
+5581 before sensing
+Possible: 4514 fens
+Exploring: 4514 fens
+
+Game 7: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_49_55.json...
+RandomSensing Agent
+964 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 260 fens
+Exploring: 260 fens
+
+RandomSensing Agent
+4181 before sensing
+Possible: 3977 fens
+Exploring: 3977 fens
+
+RandomSensing Agent
+56772 before sensing
+Possible: 8956 fens
+Exploring: 8956 fens
+
+RandomSensing Agent
+107841 before sensing
+Possible: 542 fens
+Exploring: 542 fens
+
+RandomSensing Agent
+6067 before sensing
+Possible: 348 fens
+Exploring: 348 fens
+
+RandomSensing Agent
+8432 before sensing
+Possible: 246 fens
+Exploring: 246 fens
+
+RandomSensing Agent
+468 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+562 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 8: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_52_36.json...
+RandomSensing Agent
+57 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 348 fens
+Exploring: 348 fens
+
+RandomSensing Agent
+74 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+793 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+939 before sensing
+Possible: 372 fens
+Exploring: 372 fens
+
+RandomSensing Agent
+6006 before sensing
+Possible: 429 fens
+Exploring: 429 fens
+
+RandomSensing Agent
+9098 before sensing
+Possible: 700 fens
+Exploring: 700 fens
+
+RandomSensing Agent
+18796 before sensing
+Possible: 12583 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+227623 before sensing
+Possible: 109367 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+263 before sensing
+Possible: 231 fens
+Exploring: 231 fens
+
+RandomSensing Agent
+231 before sensing
+Possible: 220 fens
+Exploring: 220 fens
+
+RandomSensing Agent
+5995 before sensing
+Possible: 4740 fens
+Exploring: 4740 fens
+
+Game 9: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_04_32.json...
+RandomSensing Agent
+4656 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+325 before sensing
+Possible: 325 fens
+Exploring: 325 fens
+
+RandomSensing Agent
+4591 before sensing
+Possible: 225 fens
+Exploring: 225 fens
+
+RandomSensing Agent
+778 before sensing
+Possible: 454 fens
+Exploring: 454 fens
+
+RandomSensing Agent
+234 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+919 before sensing
+Possible: 438 fens
+Exploring: 438 fens
+
+RandomSensing Agent
+12228 before sensing
+Possible: 6627 fens
+Exploring: 6627 fens
+
+RandomSensing Agent
+164595 before sensing
+Possible: 69103 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+329157 before sensing
+Possible: 555 fens
+Exploring: 555 fens
+
+RandomSensing Agent
+397 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+1876 before sensing
+Possible: 55 fens
+Exploring: 55 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+67 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+534 before sensing
+Possible: 256 fens
+Exploring: 256 fens
+
+RandomSensing Agent
+9 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+156 before sensing
+Possible: 54 fens
+Exploring: 54 fens
+
+Game 10: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_08_52.json...
+RandomSensing Agent
+607 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 347 fens
+Exploring: 347 fens
+
+RandomSensing Agent
+78 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+1086 before sensing
+Possible: 1029 fens
+Exploring: 1029 fens
+
+RandomSensing Agent
+143 before sensing
+Possible: 45 fens
+Exploring: 45 fens
+
+RandomSensing Agent
+975 before sensing
+Possible: 937 fens
+Exploring: 937 fens
+
+RandomSensing Agent
+258 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_10_36.json...
+RandomSensing Agent
+22 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+533 before sensing
+Possible: 509 fens
+Exploring: 509 fens
+
+RandomSensing Agent
+10088 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+620 before sensing
+Possible: 38 fens
+Exploring: 38 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+1360 before sensing
+Possible: 1142 fens
+Exploring: 1142 fens
+
+RandomSensing Agent
+1167 before sensing
+Possible: 233 fens
+Exploring: 233 fens
+
+RandomSensing Agent
+9558 before sensing
+Possible: 3185 fens
+Exploring: 3185 fens
+
+Game 12: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_41_18.json...
+RandomSensing Agent
+103333 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+788 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+425 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+176 before sensing
+Possible: 130 fens
+Exploring: 130 fens
+
+RandomSensing Agent
+2929 before sensing
+Possible: 542 fens
+Exploring: 542 fens
+
+RandomSensing Agent
+8126 before sensing
+Possible: 261 fens
+Exploring: 261 fens
+
+RandomSensing Agent
+7845 before sensing
+Possible: 251 fens
+Exploring: 251 fens
+
+RandomSensing Agent
+137 before sensing
+Possible: 128 fens
+Exploring: 128 fens
+
+RandomSensing Agent
+58 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+983 before sensing
+Possible: 489 fens
+Exploring: 489 fens
+
+RandomSensing Agent
+12030 before sensing
+Possible: 8688 fens
+Exploring: 8688 fens
+
+RandomSensing Agent
+4796 before sensing
+Possible: 226 fens
+Exploring: 226 fens
+
+RandomSensing Agent
+6144 before sensing
+Possible: 4603 fens
+Exploring: 4603 fens
+
+RandomSensing Agent
+2033 before sensing
+Possible: 1666 fens
+Exploring: 1666 fens
+
+Game 13: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-17_46_11.json...
+RandomSensing Agent
+1277 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+246 before sensing
+Possible: 246 fens
+Exploring: 246 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+65 before sensing
+Possible: 49 fens
+Exploring: 49 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1224 before sensing
+Possible: 608 fens
+Exploring: 608 fens
+
+RandomSensing Agent
+10722 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+886 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+64 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+23 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+662 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+764 before sensing
+Possible: 284 fens
+Exploring: 284 fens
+
+Game 14: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-17_49_18.json...
+RandomSensing Agent
+797 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 347 fens
+Exploring: 347 fens
+
+RandomSensing Agent
+78 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+65 before sensing
+Possible: 49 fens
+Exploring: 49 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+300 before sensing
+Possible: 198 fens
+Exploring: 198 fens
+
+RandomSensing Agent
+4183 before sensing
+Possible: 275 fens
+Exploring: 275 fens
+
+RandomSensing Agent
+68 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+878 before sensing
+Possible: 199 fens
+Exploring: 199 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+283 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+254 before sensing
+Possible: 252 fens
+Exploring: 252 fens
+
+RandomSensing Agent
+198 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+819 before sensing
+Possible: 658 fens
+Exploring: 658 fens
+
+RandomSensing Agent
+12048 before sensing
+Possible: 2135 fens
+Exploring: 2135 fens
+
+RandomSensing Agent
+45236 before sensing
+Possible: 31858 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+230138 before sensing
+Possible: 175365 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+150532 before sensing
+Possible: 32909 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+227996 before sensing
+Possible: 45108 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+231584 before sensing
+Possible: 107039 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+252057 before sensing
+Possible: 8911 fens
+Exploring: 8911 fens
+
+RandomSensing Agent
+180832 before sensing
+Possible: 127482 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+271896 before sensing
+Possible: 12699 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+182626 before sensing
+Possible: 50509 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+240293 before sensing
+Possible: 43082 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+242805 before sensing
+Possible: 65436 fens
+Exploring: 10000 fens
+
+Game 15: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_00_28.json...
+RandomSensing Agent
+9614 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+756 before sensing
+Possible: 416 fens
+Exploring: 416 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+71 before sensing
+Possible: 62 fens
+Exploring: 62 fens
+
+RandomSensing Agent
+1666 before sensing
+Possible: 70 fens
+Exploring: 70 fens
+
+RandomSensing Agent
+2113 before sensing
+Possible: 1345 fens
+Exploring: 1345 fens
+
+RandomSensing Agent
+31942 before sensing
+Possible: 1118 fens
+Exploring: 1118 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+88 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+98 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+Game 16: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-18_02_20.json...
+RandomSensing Agent
+534 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 265 fens
+Exploring: 265 fens
+
+RandomSensing Agent
+3802 before sensing
+Possible: 1559 fens
+Exploring: 1559 fens
+
+RandomSensing Agent
+27702 before sensing
+Possible: 112 fens
+Exploring: 112 fens
+
+RandomSensing Agent
+92 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+341 before sensing
+Possible: 298 fens
+Exploring: 298 fens
+
+RandomSensing Agent
+5705 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 17: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_03_46.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+731 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+642 before sensing
+Possible: 454 fens
+Exploring: 454 fens
+
+RandomSensing Agent
+10124 before sensing
+Possible: 7857 fens
+Exploring: 7857 fens
+
+RandomSensing Agent
+16558 before sensing
+Possible: 2345 fens
+Exploring: 2345 fens
+
+RandomSensing Agent
+43273 before sensing
+Possible: 24892 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+257399 before sensing
+Possible: 154148 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+305261 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+59 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+93 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 18: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-18_06_52.json...
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+602 before sensing
+Possible: 424 fens
+Exploring: 424 fens
+
+RandomSensing Agent
+354 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_07_50.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+831 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+474 before sensing
+Possible: 467 fens
+Exploring: 467 fens
+
+RandomSensing Agent
+8005 before sensing
+Possible: 5066 fens
+Exploring: 5066 fens
+
+Game 20: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-18_09_20.json...
+RandomSensing Agent
+12374 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+602 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+56 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+740 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+853 before sensing
+Possible: 767 fens
+Exploring: 767 fens
+
+RandomSensing Agent
+14189 before sensing
+Possible: 12992 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+700 before sensing
+Possible: 551 fens
+Exploring: 551 fens
+
+RandomSensing Agent
+481 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+25 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+777 before sensing
+Possible: 46 fens
+Exploring: 46 fens
+
+RandomSensing Agent
+1249 before sensing
+Possible: 563 fens
+Exploring: 563 fens
+
+Game 21: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_12_21.json...
+RandomSensing Agent
+351 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+707 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+1052 before sensing
+Possible: 946 fens
+Exploring: 946 fens
+
+RandomSensing Agent
+815 before sensing
+Possible: 303 fens
+Exploring: 303 fens
+
+RandomSensing Agent
+7889 before sensing
+Possible: 6267 fens
+Exploring: 6267 fens
+
+RandomSensing Agent
+114716 before sensing
+Possible: 86416 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+289213 before sensing
+Possible: 115831 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+338704 before sensing
+Possible: 1419 fens
+Exploring: 1419 fens
+
+RandomSensing Agent
+11706 before sensing
+Possible: 7257 fens
+Exploring: 7257 fens
+
+RandomSensing Agent
+156697 before sensing
+Possible: 10275 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+214232 before sensing
+Possible: 160617 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+298847 before sensing
+Possible: 85658 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+316275 before sensing
+Possible: 269621 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+329009 before sensing
+Possible: 362 fens
+Exploring: 362 fens
+
+RandomSensing Agent
+188 before sensing
+Possible: 103 fens
+Exploring: 103 fens
+
+RandomSensing Agent
+2206 before sensing
+Possible: 1610 fens
+Exploring: 1610 fens
+
+RandomSensing Agent
+36031 before sensing
+Possible: 1337 fens
+Exploring: 1337 fens
+
+RandomSensing Agent
+28830 before sensing
+Possible: 432 fens
+Exploring: 432 fens
+
+RandomSensing Agent
+100 before sensing
+Possible: 74 fens
+Exploring: 74 fens
+
+RandomSensing Agent
+1627 before sensing
+Possible: 64 fens
+Exploring: 64 fens
+
+RandomSensing Agent
+1379 before sensing
+Possible: 647 fens
+Exploring: 647 fens
+
+Game 22: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-18_21_19.json...
+RandomSensing Agent
+7960 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+266 before sensing
+Possible: 257 fens
+Exploring: 257 fens
+
+RandomSensing Agent
+74 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+59 before sensing
+Possible: 57 fens
+Exploring: 57 fens
+
+Game 23: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_22_03.json...
+RandomSensing Agent
+53 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+601 before sensing
+Possible: 370 fens
+Exploring: 370 fens
+
+RandomSensing Agent
+660 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+421 before sensing
+Possible: 345 fens
+Exploring: 345 fens
+
+RandomSensing Agent
+7656 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+283 before sensing
+Possible: 234 fens
+Exploring: 234 fens
+
+RandomSensing Agent
+4310 before sensing
+Possible: 3226 fens
+Exploring: 3226 fens
+
+RandomSensing Agent
+49360 before sensing
+Possible: 2350 fens
+Exploring: 2350 fens
+
+RandomSensing Agent
+146 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+966 before sensing
+Possible: 579 fens
+Exploring: 579 fens
+
+RandomSensing Agent
+450 before sensing
+Possible: 339 fens
+Exploring: 339 fens
+
+RandomSensing Agent
+7085 before sensing
+Possible: 6875 fens
+Exploring: 6875 fens
+
+RandomSensing Agent
+108328 before sensing
+Possible: 90307 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+248808 before sensing
+Possible: 11676 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+289920 before sensing
+Possible: 255130 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+309878 before sensing
+Possible: 177252 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+350740 before sensing
+Possible: 4852 fens
+Exploring: 4852 fens
+
+Game 24: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-18_30_27.json...
+RandomSensing Agent
+95683 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+579 before sensing
+Possible: 523 fens
+Exploring: 523 fens
+
+RandomSensing Agent
+516 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_31_43.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 13 (white wins: 8, black wins: 5), Failed games: 0
+RandomSensing wins: 12 (white wins: 7, black wins: 5), Failed games: 0
+Draw ratio: 0.00
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 154 fens
+Exploring: 154 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+446 before sensing
+Possible: 290 fens
+Exploring: 290 fens
+
+RandomSensing Agent
+5712 before sensing
+Possible: 446 fens
+Exploring: 446 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+48 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+1370 before sensing
+Possible: 216 fens
+Exploring: 216 fens
+
+RandomSensing Agent
+10 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+940 before sensing
+Possible: 788 fens
+Exploring: 788 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_50_20.json...
+RandomSensing Agent
+441 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+750 before sensing
+Possible: 343 fens
+Exploring: 343 fens
+
+RandomSensing Agent
+52 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+619 before sensing
+Possible: 581 fens
+Exploring: 581 fens
+
+RandomSensing Agent
+12518 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+145 before sensing
+Possible: 125 fens
+Exploring: 125 fens
+
+RandomSensing Agent
+3084 before sensing
+Possible: 2749 fens
+Exploring: 2749 fens
+
+RandomSensing Agent
+232 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+58 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+RandomSensing Agent
+225 before sensing
+Possible: 198 fens
+Exploring: 198 fens
+
+Game 2: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-15_53_38.json...
+RandomSensing Agent
+787 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 345 fens
+Exploring: 345 fens
+
+RandomSensing Agent
+4704 before sensing
+Possible: 1402 fens
+Exploring: 1402 fens
+
+RandomSensing Agent
+381 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+416 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+729 before sensing
+Possible: 647 fens
+Exploring: 647 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+631 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+552 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+66 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+564 before sensing
+Possible: 327 fens
+Exploring: 327 fens
+
+RandomSensing Agent
+5901 before sensing
+Possible: 4096 fens
+Exploring: 4096 fens
+
+RandomSensing Agent
+55554 before sensing
+Possible: 32466 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1437 before sensing
+Possible: 720 fens
+Exploring: 720 fens
+
+RandomSensing Agent
+679 before sensing
+Possible: 541 fens
+Exploring: 541 fens
+
+RandomSensing Agent
+12279 before sensing
+Possible: 2069 fens
+Exploring: 2069 fens
+
+RandomSensing Agent
+8797 before sensing
+Possible: 8419 fens
+Exploring: 8419 fens
+
+RandomSensing Agent
+99294 before sensing
+Possible: 90598 fens
+Exploring: 10000 fens
+
+Game 3: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_58_53.json...
+RandomSensing Agent
+4502 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+262 before sensing
+Possible: 201 fens
+Exploring: 201 fens
+
+RandomSensing Agent
+3276 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+1311 before sensing
+Possible: 1100 fens
+Exploring: 1100 fens
+
+RandomSensing Agent
+99 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+Game 4: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_00_11.json...
+RandomSensing Agent
+985 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+633 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+4 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+74 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+80 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+88 before sensing
+Possible: 51 fens
+Exploring: 51 fens
+
+RandomSensing Agent
+1352 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+962 before sensing
+Possible: 656 fens
+Exploring: 656 fens
+
+RandomSensing Agent
+75 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+672 before sensing
+Possible: 331 fens
+Exploring: 331 fens
+
+RandomSensing Agent
+7876 before sensing
+Possible: 146 fens
+Exploring: 146 fens
+
+RandomSensing Agent
+4341 before sensing
+Possible: 241 fens
+Exploring: 241 fens
+
+RandomSensing Agent
+654 before sensing
+Possible: 411 fens
+Exploring: 411 fens
+
+RandomSensing Agent
+9922 before sensing
+Possible: 2621 fens
+Exploring: 2621 fens
+
+RandomSensing Agent
+53878 before sensing
+Possible: 16854 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+208039 before sensing
+Possible: 119312 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+187437 before sensing
+Possible: 66133 fens
+Exploring: 10000 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_09_03.json...
+RandomSensing Agent
+3008 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+317 before sensing
+Possible: 145 fens
+Exploring: 145 fens
+
+RandomSensing Agent
+25 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+Game 6: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_09_47.json...
+RandomSensing Agent
+681 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 263 fens
+Exploring: 263 fens
+
+RandomSensing Agent
+4273 before sensing
+Possible: 4149 fens
+Exploring: 4149 fens
+
+RandomSensing Agent
+59072 before sensing
+Possible: 8996 fens
+Exploring: 8996 fens
+
+RandomSensing Agent
+678 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+Game 7: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_11_17.json...
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 350 fens
+Exploring: 350 fens
+
+RandomSensing Agent
+4797 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+17 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+Game 8: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_13_08.json...
+RandomSensing Agent
+554 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 347 fens
+Exploring: 347 fens
+
+RandomSensing Agent
+4787 before sensing
+Possible: 4485 fens
+Exploring: 4485 fens
+
+RandomSensing Agent
+60800 before sensing
+Possible: 407 fens
+Exploring: 407 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+180 before sensing
+Possible: 130 fens
+Exploring: 130 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+134 before sensing
+Possible: 114 fens
+Exploring: 114 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_14_55.json...
+RandomSensing Agent
+99 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+792 before sensing
+Possible: 51 fens
+Exploring: 51 fens
+
+RandomSensing Agent
+740 before sensing
+Possible: 636 fens
+Exploring: 636 fens
+
+Game 10: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_16_13.json...
+RandomSensing Agent
+11711 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+581 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+51 before sensing
+Possible: 46 fens
+Exploring: 46 fens
+
+RandomSensing Agent
+900 before sensing
+Possible: 664 fens
+Exploring: 664 fens
+
+RandomSensing Agent
+1485 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+57 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+56 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+482 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+473 before sensing
+Possible: 420 fens
+Exploring: 420 fens
+
+RandomSensing Agent
+65 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+653 before sensing
+Possible: 553 fens
+Exploring: 553 fens
+
+RandomSensing Agent
+311 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+949 before sensing
+Possible: 53 fens
+Exploring: 53 fens
+
+RandomSensing Agent
+903 before sensing
+Possible: 48 fens
+Exploring: 48 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+721 before sensing
+Possible: 338 fens
+Exploring: 338 fens
+
+Game 11: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_18_46.json...
+RandomSensing Agent
+51 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+756 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+27 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+97 before sensing
+Possible: 97 fens
+Exploring: 97 fens
+
+RandomSensing Agent
+87 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+542 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+733 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1185 before sensing
+Possible: 400 fens
+Exploring: 400 fens
+
+RandomSensing Agent
+101 before sensing
+Possible: 61 fens
+Exploring: 61 fens
+
+RandomSensing Agent
+1671 before sensing
+Possible: 234 fens
+Exploring: 234 fens
+
+RandomSensing Agent
+5853 before sensing
+Possible: 711 fens
+Exploring: 711 fens
+
+RandomSensing Agent
+13856 before sensing
+Possible: 11706 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+145608 before sensing
+Possible: 29846 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+191361 before sensing
+Possible: 171867 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+268524 before sensing
+Possible: 35432 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+253510 before sensing
+Possible: 12453 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+212294 before sensing
+Possible: 24677 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+222963 before sensing
+Possible: 5518 fens
+Exploring: 5518 fens
+
+RandomSensing Agent
+4604 before sensing
+Possible: 134 fens
+Exploring: 134 fens
+
+RandomSensing Agent
+232 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+900 before sensing
+Possible: 389 fens
+Exploring: 389 fens
+
+RandomSensing Agent
+12759 before sensing
+Possible: 4201 fens
+Exploring: 4201 fens
+
+RandomSensing Agent
+104461 before sensing
+Possible: 64130 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+316950 before sensing
+Possible: 71904 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+330486 before sensing
+Possible: 227939 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+360655 before sensing
+Possible: 127373 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+356101 before sensing
+Possible: 316984 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+345724 before sensing
+Possible: 5497 fens
+Exploring: 5497 fens
+
+RandomSensing Agent
+38647 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+555 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 12: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_29_56.json...
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+709 before sensing
+Possible: 699 fens
+Exploring: 699 fens
+
+RandomSensing Agent
+12197 before sensing
+Possible: 10032 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+15591 before sensing
+Possible: 5752 fens
+Exploring: 5752 fens
+
+RandomSensing Agent
+1579 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+746 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+69 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+979 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+749 before sensing
+Possible: 701 fens
+Exploring: 701 fens
+
+RandomSensing Agent
+16178 before sensing
+Possible: 8410 fens
+Exploring: 8410 fens
+
+RandomSensing Agent
+151731 before sensing
+Possible: 382 fens
+Exploring: 382 fens
+
+RandomSensing Agent
+190 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+115 before sensing
+Possible: 98 fens
+Exploring: 98 fens
+
+RandomSensing Agent
+17 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 13: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_41_40.json...
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+967 before sensing
+Possible: 776 fens
+Exploring: 776 fens
+
+RandomSensing Agent
+15867 before sensing
+Possible: 15135 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1511 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+996 before sensing
+Possible: 442 fens
+Exploring: 442 fens
+
+RandomSensing Agent
+12514 before sensing
+Possible: 3814 fens
+Exploring: 3814 fens
+
+Game 14: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_43_31.json...
+RandomSensing Agent
+89882 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 82 fens
+Exploring: 82 fens
+
+RandomSensing Agent
+1879 before sensing
+Possible: 51 fens
+Exploring: 51 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+119 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+1152 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+Game 15: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_45_27.json...
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+533 before sensing
+Possible: 528 fens
+Exploring: 528 fens
+
+RandomSensing Agent
+10517 before sensing
+Possible: 7146 fens
+Exploring: 7146 fens
+
+RandomSensing Agent
+13629 before sensing
+Possible: 10146 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+18821 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+3553 before sensing
+Possible: 3415 fens
+Exploring: 3415 fens
+
+RandomSensing Agent
+74500 before sensing
+Possible: 68225 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+242957 before sensing
+Possible: 1921 fens
+Exploring: 1921 fens
+
+RandomSensing Agent
+2380 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+2402 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+191 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+8 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+163 before sensing
+Possible: 143 fens
+Exploring: 143 fens
+
+RandomSensing Agent
+119 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+109 before sensing
+Possible: 109 fens
+Exploring: 109 fens
+
+RandomSensing Agent
+1653 before sensing
+Possible: 1628 fens
+Exploring: 1628 fens
+
+RandomSensing Agent
+1053 before sensing
+Possible: 85 fens
+Exploring: 85 fens
+
+RandomSensing Agent
+2246 before sensing
+Possible: 1877 fens
+Exploring: 1877 fens
+
+RandomSensing Agent
+30232 before sensing
+Possible: 28439 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1319 before sensing
+Possible: 858 fens
+Exploring: 858 fens
+
+RandomSensing Agent
+16448 before sensing
+Possible: 807 fens
+Exploring: 807 fens
+
+RandomSensing Agent
+14361 before sensing
+Possible: 130 fens
+Exploring: 130 fens
+
+RandomSensing Agent
+2113 before sensing
+Possible: 936 fens
+Exploring: 936 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+71 before sensing
+Possible: 65 fens
+Exploring: 65 fens
+
+RandomSensing Agent
+722 before sensing
+Possible: 318 fens
+Exploring: 318 fens
+
+RandomSensing Agent
+3415 before sensing
+Possible: 2404 fens
+Exploring: 2404 fens
+
+RandomSensing Agent
+312 before sensing
+Possible: 290 fens
+Exploring: 290 fens
+
+RandomSensing Agent
+2879 before sensing
+Possible: 2458 fens
+Exploring: 2458 fens
+
+RandomSensing Agent
+17914 before sensing
+Possible: 10724 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+63510 before sensing
+Possible: 445 fens
+Exploring: 445 fens
+
+RandomSensing Agent
+4506 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+900 before sensing
+Possible: 757 fens
+Exploring: 757 fens
+
+RandomSensing Agent
+7493 before sensing
+Possible: 169 fens
+Exploring: 169 fens
+
+RandomSensing Agent
+1842 before sensing
+Possible: 1610 fens
+Exploring: 1610 fens
+
+RandomSensing Agent
+56 before sensing
+Possible: 55 fens
+Exploring: 55 fens
+
+RandomSensing Agent
+1177 before sensing
+Possible: 526 fens
+Exploring: 526 fens
+
+RandomSensing Agent
+189 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+Game 16: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_00_02.json...
+RandomSensing Agent
+118 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+754 before sensing
+Possible: 746 fens
+Exploring: 746 fens
+
+RandomSensing Agent
+11181 before sensing
+Possible: 9070 fens
+Exploring: 9070 fens
+
+RandomSensing Agent
+122789 before sensing
+Possible: 103743 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+279808 before sensing
+Possible: 255041 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+331975 before sensing
+Possible: 305560 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+10689 before sensing
+Possible: 2030 fens
+Exploring: 2030 fens
+
+Game 17: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_04_58.json...
+RandomSensing Agent
+2031 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 145 fens
+Exploring: 145 fens
+
+RandomSensing Agent
+2647 before sensing
+Possible: 2397 fens
+Exploring: 2397 fens
+
+RandomSensing Agent
+40575 before sensing
+Possible: 35415 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+538 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 18: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_06_14.json...
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+564 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+717 before sensing
+Possible: 640 fens
+Exploring: 640 fens
+
+RandomSensing Agent
+102 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+1135 before sensing
+Possible: 632 fens
+Exploring: 632 fens
+
+RandomSensing Agent
+13313 before sensing
+Possible: 885 fens
+Exploring: 885 fens
+
+RandomSensing Agent
+784 before sensing
+Possible: 767 fens
+Exploring: 767 fens
+
+RandomSensing Agent
+555 before sensing
+Possible: 529 fens
+Exploring: 529 fens
+
+RandomSensing Agent
+548 before sensing
+Possible: 434 fens
+Exploring: 434 fens
+
+RandomSensing Agent
+299 before sensing
+Possible: 282 fens
+Exploring: 282 fens
+
+Game 19: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_08_23.json...
+RandomSensing Agent
+283 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 265 fens
+Exploring: 265 fens
+
+RandomSensing Agent
+4313 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+115 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+721 before sensing
+Possible: 423 fens
+Exploring: 423 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+645 before sensing
+Possible: 406 fens
+Exploring: 406 fens
+
+RandomSensing Agent
+10500 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+588 before sensing
+Possible: 146 fens
+Exploring: 146 fens
+
+RandomSensing Agent
+4097 before sensing
+Possible: 1512 fens
+Exploring: 1512 fens
+
+Game 20: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_10_22.json...
+RandomSensing Agent
+39565 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+579 before sensing
+Possible: 370 fens
+Exploring: 370 fens
+
+RandomSensing Agent
+7043 before sensing
+Possible: 325 fens
+Exploring: 325 fens
+
+RandomSensing Agent
+1292 before sensing
+Possible: 1107 fens
+Exploring: 1107 fens
+
+RandomSensing Agent
+662 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+867 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+7 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+25 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+655 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+726 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+1115 before sensing
+Possible: 487 fens
+Exploring: 487 fens
+
+RandomSensing Agent
+648 before sensing
+Possible: 138 fens
+Exploring: 138 fens
+
+RandomSensing Agent
+5624 before sensing
+Possible: 399 fens
+Exploring: 399 fens
+
+RandomSensing Agent
+11534 before sensing
+Possible: 361 fens
+Exploring: 361 fens
+
+RandomSensing Agent
+10527 before sensing
+Possible: 8104 fens
+Exploring: 8104 fens
+
+Game 21: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_29_47.json...
+RandomSensing Agent
+7072 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+247 before sensing
+Possible: 243 fens
+Exploring: 243 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+927 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+Game 22: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-18_30_33.json...
+RandomSensing Agent
+556 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+318 before sensing
+Possible: 129 fens
+Exploring: 129 fens
+
+RandomSensing Agent
+2437 before sensing
+Possible: 2299 fens
+Exploring: 2299 fens
+
+RandomSensing Agent
+38837 before sensing
+Possible: 6127 fens
+Exploring: 6127 fens
+
+RandomSensing Agent
+1212 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+Game 23: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_32_03.json...
+RandomSensing Agent
+30 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 260 fens
+Exploring: 260 fens
+
+RandomSensing Agent
+4181 before sensing
+Possible: 429 fens
+Exploring: 429 fens
+
+RandomSensing Agent
+244 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+509 before sensing
+Possible: 382 fens
+Exploring: 382 fens
+
+RandomSensing Agent
+7531 before sensing
+Possible: 254 fens
+Exploring: 254 fens
+
+Game 24: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-18_33_19.json...
+RandomSensing Agent
+3353 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+466 before sensing
+Possible: 312 fens
+Exploring: 312 fens
+
+RandomSensing Agent
+5633 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+9 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+514 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+728 before sensing
+Possible: 96 fens
+Exploring: 96 fens
+
+RandomSensing Agent
+1911 before sensing
+Possible: 121 fens
+Exploring: 121 fens
+
+RandomSensing Agent
+3379 before sensing
+Possible: 3274 fens
+Exploring: 3274 fens
+
+RandomSensing Agent
+53 before sensing
+Possible: 53 fens
+Exploring: 53 fens
+
+RandomSensing Agent
+1365 before sensing
+Possible: 1174 fens
+Exploring: 1174 fens
+
+RandomSensing Agent
+11700 before sensing
+Possible: 10717 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+109237 before sensing
+Possible: 73824 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+148722 before sensing
+Possible: 1597 fens
+Exploring: 1597 fens
+
+RandomSensing Agent
+25165 before sensing
+Possible: 411 fens
+Exploring: 411 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_37_01.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 16 (white wins: 7, black wins: 9), Failed games: 0
+RandomSensing wins: 9 (white wins: 3, black wins: 6), Failed games: 0
+Draw ratio: 0.00
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+417 before sensing
+Possible: 409 fens
+Exploring: 409 fens
+
+RandomSensing Agent
+115 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 1: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-15_49_00.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+735 before sensing
+Possible: 498 fens
+Exploring: 498 fens
+
+RandomSensing Agent
+9615 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+503 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+27 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+7 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+871 before sensing
+Possible: 733 fens
+Exploring: 733 fens
+
+RandomSensing Agent
+467 before sensing
+Possible: 462 fens
+Exploring: 462 fens
+
+RandomSensing Agent
+7046 before sensing
+Possible: 496 fens
+Exploring: 496 fens
+
+RandomSensing Agent
+9110 before sensing
+Possible: 2634 fens
+Exploring: 2634 fens
+
+RandomSensing Agent
+485 before sensing
+Possible: 104 fens
+Exploring: 104 fens
+
+RandomSensing Agent
+99 before sensing
+Possible: 99 fens
+Exploring: 99 fens
+
+RandomSensing Agent
+2773 before sensing
+Possible: 489 fens
+Exploring: 489 fens
+
+RandomSensing Agent
+12034 before sensing
+Possible: 1767 fens
+Exploring: 1767 fens
+
+Game 2: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_16_01.json...
+RandomSensing Agent
+31701 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 39 fens
+Exploring: 39 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+959 before sensing
+Possible: 578 fens
+Exploring: 578 fens
+
+RandomSensing Agent
+94 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+731 before sensing
+Possible: 671 fens
+Exploring: 671 fens
+
+RandomSensing Agent
+198 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+1228 before sensing
+Possible: 1162 fens
+Exploring: 1162 fens
+
+RandomSensing Agent
+17958 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 47 fens
+Exploring: 47 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+Game 3: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_18_55.json...
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 239 fens
+Exploring: 239 fens
+
+RandomSensing Agent
+3569 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+64 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+RandomSensing Agent
+1039 before sensing
+Possible: 54 fens
+Exploring: 54 fens
+
+Game 4: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_20_44.json...
+RandomSensing Agent
+156 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+324 before sensing
+Possible: 263 fens
+Exploring: 263 fens
+
+RandomSensing Agent
+3739 before sensing
+Possible: 2948 fens
+Exploring: 2948 fens
+
+RandomSensing Agent
+42967 before sensing
+Possible: 3831 fens
+Exploring: 3831 fens
+
+RandomSensing Agent
+2017 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+854 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+783 before sensing
+Possible: 687 fens
+Exploring: 687 fens
+
+RandomSensing Agent
+816 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+23 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+235 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+2392 before sensing
+Possible: 539 fens
+Exploring: 539 fens
+
+RandomSensing Agent
+86 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+601 before sensing
+Possible: 144 fens
+Exploring: 144 fens
+
+RandomSensing Agent
+4671 before sensing
+Possible: 2384 fens
+Exploring: 2384 fens
+
+Game 5: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_45_31.json...
+RandomSensing Agent
+900 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+525 before sensing
+Possible: 423 fens
+Exploring: 423 fens
+
+RandomSensing Agent
+8275 before sensing
+Possible: 5174 fens
+Exploring: 5174 fens
+
+RandomSensing Agent
+1063 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+306 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+747 before sensing
+Possible: 701 fens
+Exploring: 701 fens
+
+RandomSensing Agent
+385 before sensing
+Possible: 165 fens
+Exploring: 165 fens
+
+RandomSensing Agent
+3565 before sensing
+Possible: 193 fens
+Exploring: 193 fens
+
+RandomSensing Agent
+3568 before sensing
+Possible: 3109 fens
+Exploring: 3109 fens
+
+RandomSensing Agent
+1949 before sensing
+Possible: 106 fens
+Exploring: 106 fens
+
+RandomSensing Agent
+3390 before sensing
+Possible: 2392 fens
+Exploring: 2392 fens
+
+RandomSensing Agent
+871 before sensing
+Possible: 768 fens
+Exploring: 768 fens
+
+RandomSensing Agent
+16599 before sensing
+Possible: 10019 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+158672 before sensing
+Possible: 15275 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+150341 before sensing
+Possible: 107824 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+229202 before sensing
+Possible: 79656 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+490 before sensing
+Possible: 125 fens
+Exploring: 125 fens
+
+RandomSensing Agent
+117 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+153 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+270 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+7 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+68 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+63 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+82 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+131 before sensing
+Possible: 131 fens
+Exploring: 131 fens
+
+RandomSensing Agent
+106 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+139 before sensing
+Possible: 134 fens
+Exploring: 134 fens
+
+RandomSensing Agent
+442 before sensing
+Possible: 326 fens
+Exploring: 326 fens
+
+RandomSensing Agent
+798 before sensing
+Possible: 733 fens
+Exploring: 733 fens
+
+RandomSensing Agent
+1859 before sensing
+Possible: 1699 fens
+Exploring: 1699 fens
+
+RandomSensing Agent
+479 before sensing
+Possible: 393 fens
+Exploring: 393 fens
+
+RandomSensing Agent
+1759 before sensing
+Possible: 1405 fens
+Exploring: 1405 fens
+
+RandomSensing Agent
+6960 before sensing
+Possible: 4311 fens
+Exploring: 4311 fens
+
+RandomSensing Agent
+16313 before sensing
+Possible: 213 fens
+Exploring: 213 fens
+
+RandomSensing Agent
+69 before sensing
+Possible: 64 fens
+Exploring: 64 fens
+
+RandomSensing Agent
+253 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+Game 6: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_52_39.json...
+RandomSensing Agent
+69 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 259 fens
+Exploring: 259 fens
+
+RandomSensing Agent
+4181 before sensing
+Possible: 3883 fens
+Exploring: 3883 fens
+
+RandomSensing Agent
+55965 before sensing
+Possible: 2696 fens
+Exploring: 2696 fens
+
+RandomSensing Agent
+38944 before sensing
+Possible: 35786 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+250197 before sensing
+Possible: 177352 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+4292 before sensing
+Possible: 184 fens
+Exploring: 184 fens
+
+RandomSensing Agent
+149 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 7: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_55_32.json...
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+581 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+588 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+60 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+67 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+881 before sensing
+Possible: 129 fens
+Exploring: 129 fens
+
+Game 8: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_57_13.json...
+RandomSensing Agent
+3485 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+585 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+71 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+938 before sensing
+Possible: 644 fens
+Exploring: 644 fens
+
+RandomSensing Agent
+13074 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+118 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+2529 before sensing
+Possible: 62 fens
+Exploring: 62 fens
+
+RandomSensing Agent
+1819 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+Game 9: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_59_18.json...
+RandomSensing Agent
+10 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 260 fens
+Exploring: 260 fens
+
+RandomSensing Agent
+4181 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+67 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1088 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+Game 10: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_00_26.json...
+RandomSensing Agent
+70 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 326 fens
+Exploring: 326 fens
+
+RandomSensing Agent
+4640 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+471 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+530 before sensing
+Possible: 471 fens
+Exploring: 471 fens
+
+RandomSensing Agent
+9311 before sensing
+Possible: 524 fens
+Exploring: 524 fens
+
+RandomSensing Agent
+10233 before sensing
+Possible: 743 fens
+Exploring: 743 fens
+
+RandomSensing Agent
+95 before sensing
+Possible: 82 fens
+Exploring: 82 fens
+
+RandomSensing Agent
+147 before sensing
+Possible: 52 fens
+Exploring: 52 fens
+
+RandomSensing Agent
+1447 before sensing
+Possible: 108 fens
+Exploring: 108 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_03_12.json...
+RandomSensing Agent
+109 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+246 before sensing
+Possible: 131 fens
+Exploring: 131 fens
+
+RandomSensing Agent
+2426 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+770 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+675 before sensing
+Possible: 620 fens
+Exploring: 620 fens
+
+RandomSensing Agent
+10664 before sensing
+Possible: 9393 fens
+Exploring: 9393 fens
+
+RandomSensing Agent
+13787 before sensing
+Possible: 124 fens
+Exploring: 124 fens
+
+RandomSensing Agent
+1745 before sensing
+Possible: 1409 fens
+Exploring: 1409 fens
+
+RandomSensing Agent
+15654 before sensing
+Possible: 13270 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 0 fens
+No possible fens
+Game 12: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_05_33.json...
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 322 fens
+Exploring: 322 fens
+
+RandomSensing Agent
+4608 before sensing
+Possible: 4404 fens
+Exploring: 4404 fens
+
+RandomSensing Agent
+60734 before sensing
+Possible: 2037 fens
+Exploring: 2037 fens
+
+RandomSensing Agent
+175 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+706 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+147 before sensing
+Possible: 128 fens
+Exploring: 128 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+Game 13: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-17_07_10.json...
+RandomSensing Agent
+4 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+739 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+438 before sensing
+Possible: 233 fens
+Exploring: 233 fens
+
+RandomSensing Agent
+4871 before sensing
+Possible: 934 fens
+Exploring: 934 fens
+
+RandomSensing Agent
+15017 before sensing
+Possible: 84 fens
+Exploring: 84 fens
+
+RandomSensing Agent
+2125 before sensing
+Possible: 1334 fens
+Exploring: 1334 fens
+
+RandomSensing Agent
+1700 before sensing
+Possible: 244 fens
+Exploring: 244 fens
+
+RandomSensing Agent
+7260 before sensing
+Possible: 1339 fens
+Exploring: 1339 fens
+
+RandomSensing Agent
+25490 before sensing
+Possible: 17494 fens
+Exploring: 10000 fens
+
+Game 14: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-18_26_20.json...
+RandomSensing Agent
+197776 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+642 before sensing
+Possible: 201 fens
+Exploring: 201 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+927 before sensing
+Possible: 411 fens
+Exploring: 411 fens
+
+RandomSensing Agent
+10773 before sensing
+Possible: 123 fens
+Exploring: 123 fens
+
+RandomSensing Agent
+3860 before sensing
+Possible: 2346 fens
+Exploring: 2346 fens
+
+RandomSensing Agent
+158 before sensing
+Possible: 79 fens
+Exploring: 79 fens
+
+RandomSensing Agent
+69 before sensing
+Possible: 56 fens
+Exploring: 56 fens
+
+RandomSensing Agent
+1352 before sensing
+Possible: 733 fens
+Exploring: 733 fens
+
+RandomSensing Agent
+92 before sensing
+Possible: 15 fens
+Exploring: 15 fens
+
+RandomSensing Agent
+343 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+101 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+52 before sensing
+Possible: 49 fens
+Exploring: 49 fens
+
+RandomSensing Agent
+806 before sensing
+Possible: 239 fens
+Exploring: 239 fens
+
+RandomSensing Agent
+4293 before sensing
+Possible: 2227 fens
+Exploring: 2227 fens
+
+RandomSensing Agent
+8948 before sensing
+Possible: 4328 fens
+Exploring: 4328 fens
+
+Game 15: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-18_30_32.json...
+RandomSensing Agent
+1163 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+756 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+165 before sensing
+Possible: 90 fens
+Exploring: 90 fens
+
+RandomSensing Agent
+2326 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+669 before sensing
+Possible: 310 fens
+Exploring: 310 fens
+
+RandomSensing Agent
+7650 before sensing
+Possible: 7223 fens
+Exploring: 7223 fens
+
+RandomSensing Agent
+878 before sensing
+Possible: 143 fens
+Exploring: 143 fens
+
+RandomSensing Agent
+4805 before sensing
+Possible: 189 fens
+Exploring: 189 fens
+
+RandomSensing Agent
+3980 before sensing
+Possible: 336 fens
+Exploring: 336 fens
+
+RandomSensing Agent
+5960 before sensing
+Possible: 5081 fens
+Exploring: 5081 fens
+
+RandomSensing Agent
+2299 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+284 before sensing
+Possible: 106 fens
+Exploring: 106 fens
+
+RandomSensing Agent
+3023 before sensing
+Possible: 2440 fens
+Exploring: 2440 fens
+
+RandomSensing Agent
+51744 before sensing
+Possible: 39784 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+197123 before sensing
+Possible: 117579 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+309179 before sensing
+Possible: 21055 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+236778 before sensing
+Possible: 221152 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+272774 before sensing
+Possible: 36600 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+4885 before sensing
+Possible: 1093 fens
+Exploring: 1093 fens
+
+RandomSensing Agent
+31426 before sensing
+Possible: 1073 fens
+Exploring: 1073 fens
+
+RandomSensing Agent
+28686 before sensing
+Possible: 1051 fens
+Exploring: 1051 fens
+
+RandomSensing Agent
+29334 before sensing
+Possible: 955 fens
+Exploring: 955 fens
+
+RandomSensing Agent
+467 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+553 before sensing
+Possible: 97 fens
+Exploring: 97 fens
+
+Game 16: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-18_48_45.json...
+RandomSensing Agent
+663 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 351 fens
+Exploring: 351 fens
+
+RandomSensing Agent
+4796 before sensing
+Possible: 1433 fens
+Exploring: 1433 fens
+
+RandomSensing Agent
+25639 before sensing
+Possible: 13214 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+2542 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+48 before sensing
+Possible: 45 fens
+Exploring: 45 fens
+
+RandomSensing Agent
+1542 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1449 before sensing
+Possible: 1383 fens
+Exploring: 1383 fens
+
+RandomSensing Agent
+134 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+1425 before sensing
+Possible: 1239 fens
+Exploring: 1239 fens
+
+Game 17: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_50_13.json...
+RandomSensing Agent
+1166 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+107 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+75 before sensing
+Possible: 67 fens
+Exploring: 67 fens
+
+RandomSensing Agent
+1827 before sensing
+Possible: 447 fens
+Exploring: 447 fens
+
+RandomSensing Agent
+12359 before sensing
+Possible: 11010 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+100756 before sensing
+Possible: 8556 fens
+Exploring: 8556 fens
+
+RandomSensing Agent
+155951 before sensing
+Possible: 66430 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+291821 before sensing
+Possible: 27684 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+288683 before sensing
+Possible: 129341 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+323937 before sensing
+Possible: 160862 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+124673 before sensing
+Possible: 2684 fens
+Exploring: 2684 fens
+
+RandomSensing Agent
+91832 before sensing
+Possible: 65565 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+3909 before sensing
+Possible: 568 fens
+Exploring: 568 fens
+
+RandomSensing Agent
+178 before sensing
+Possible: 102 fens
+Exploring: 102 fens
+
+RandomSensing Agent
+3787 before sensing
+Possible: 1589 fens
+Exploring: 1589 fens
+
+RandomSensing Agent
+43391 before sensing
+Possible: 35685 fens
+Exploring: 10000 fens
+
+Game 18: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-18_57_11.json...
+RandomSensing Agent
+22506 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 8 fens
+Exploring: 8 fens
+
+RandomSensing Agent
+273 before sensing
+Possible: 223 fens
+Exploring: 223 fens
+
+RandomSensing Agent
+5591 before sensing
+Possible: 3539 fens
+Exploring: 3539 fens
+
+RandomSensing Agent
+1077 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+798 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1002 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1152 before sensing
+Possible: 787 fens
+Exploring: 787 fens
+
+RandomSensing Agent
+425 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+Game 19: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-18_59_38.json...
+RandomSensing Agent
+17 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+458 before sensing
+Possible: 431 fens
+Exploring: 431 fens
+
+RandomSensing Agent
+369 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+53 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+139 before sensing
+Possible: 125 fens
+Exploring: 125 fens
+
+RandomSensing Agent
+24 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+86 before sensing
+Possible: 79 fens
+Exploring: 79 fens
+
+RandomSensing Agent
+1735 before sensing
+Possible: 81 fens
+Exploring: 81 fens
+
+RandomSensing Agent
+1948 before sensing
+Possible: 1742 fens
+Exploring: 1742 fens
+
+RandomSensing Agent
+945 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+674 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+528 before sensing
+Possible: 472 fens
+Exploring: 472 fens
+
+RandomSensing Agent
+5909 before sensing
+Possible: 1103 fens
+Exploring: 1103 fens
+
+RandomSensing Agent
+85 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+339 before sensing
+Possible: 289 fens
+Exploring: 289 fens
+
+RandomSensing Agent
+5609 before sensing
+Possible: 415 fens
+Exploring: 415 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+356 before sensing
+Possible: 326 fens
+Exploring: 326 fens
+
+RandomSensing Agent
+3747 before sensing
+Possible: 3234 fens
+Exploring: 3234 fens
+
+RandomSensing Agent
+28123 before sensing
+Possible: 148 fens
+Exploring: 148 fens
+
+RandomSensing Agent
+1520 before sensing
+Possible: 178 fens
+Exploring: 178 fens
+
+RandomSensing Agent
+2033 before sensing
+Possible: 67 fens
+Exploring: 67 fens
+
+Game 20: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-19_03_10.json...
+RandomSensing Agent
+234 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+262 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+48 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+771 before sensing
+Possible: 719 fens
+Exploring: 719 fens
+
+RandomSensing Agent
+13178 before sensing
+Possible: 4692 fens
+Exploring: 4692 fens
+
+RandomSensing Agent
+97449 before sensing
+Possible: 36489 fens
+Exploring: 10000 fens
+
+Game 21: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_04_55.json...
+RandomSensing Agent
+9187 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+533 before sensing
+Possible: 451 fens
+Exploring: 451 fens
+
+RandomSensing Agent
+7489 before sensing
+Possible: 7121 fens
+Exploring: 7121 fens
+
+RandomSensing Agent
+103316 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+RandomSensing Agent
+127 before sensing
+Possible: 103 fens
+Exploring: 103 fens
+
+RandomSensing Agent
+2285 before sensing
+Possible: 550 fens
+Exploring: 550 fens
+
+RandomSensing Agent
+231 before sensing
+Possible: 171 fens
+Exploring: 171 fens
+
+RandomSensing Agent
+3806 before sensing
+Possible: 3017 fens
+Exploring: 3017 fens
+
+RandomSensing Agent
+49272 before sensing
+Possible: 38033 fens
+Exploring: 10000 fens
+
+Game 22: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-19_07_31.json...
+RandomSensing Agent
+97143 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 263 fens
+Exploring: 263 fens
+
+RandomSensing Agent
+61 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+73 before sensing
+Possible: 60 fens
+Exploring: 60 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+Game 23: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-19_08_15.json...
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+Game 24: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-19_08_59.json...
+RandomSensing Agent
+478 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+734 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1313 before sensing
+Possible: 540 fens
+Exploring: 540 fens
+
+RandomSensing Agent
+13082 before sensing
+Possible: 1193 fens
+Exploring: 1193 fens
+
+RandomSensing Agent
+370 before sensing
+Possible: 224 fens
+Exploring: 224 fens
+
+Game 25: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_10_33.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 15 (white wins: 9, black wins: 6), Failed games: 0
+RandomSensing wins: 10 (white wins: 6, black wins: 4), Failed games: 0
+Draw ratio: 0.00
+Engine sent invalid ponder move
+Traceback (most recent call last):
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/engine.py", line 1972, in _parse_uci_bestmove
+    ponder = board.parse_uci(tokens[2].lower())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-mscluster/sjumoorty2/anaconda3/envs/general/lib/python3.12/site-packages/chess/__init__.py", line 3147, in parse_uci
+    raise IllegalMoveError(f"illegal uci: {uci!r} in {self.fen()}")
+chess.IllegalMoveError: illegal uci: 'd8d1' in 2krkbnr/B1p1pppp/2B5/1R6/5P2/8/PPP3PP/2K3NR b k - 1 1
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 44 fens
+Exploring: 44 fens
+
+RandomSensing Agent
+774 before sensing
+Possible: 626 fens
+Exploring: 626 fens
+
+RandomSensing Agent
+10927 before sensing
+Possible: 8492 fens
+Exploring: 8492 fens
+
+RandomSensing Agent
+1093 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+546 before sensing
+Possible: 480 fens
+Exploring: 480 fens
+
+RandomSensing Agent
+258 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+692 before sensing
+Possible: 614 fens
+Exploring: 614 fens
+
+RandomSensing Agent
+11752 before sensing
+Possible: 7342 fens
+Exploring: 7342 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+23 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+Game 1: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-15_51_12.json...
+RandomSensing Agent
+22 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+4 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+1030 before sensing
+Possible: 635 fens
+Exploring: 635 fens
+
+RandomSensing Agent
+15641 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+1262 before sensing
+Possible: 839 fens
+Exploring: 839 fens
+
+RandomSensing Agent
+329 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+1249 before sensing
+Possible: 1082 fens
+Exploring: 1082 fens
+
+RandomSensing Agent
+28698 before sensing
+Possible: 24639 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+291192 before sensing
+Possible: 98711 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+396661 before sensing
+Possible: 306369 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+462011 before sensing
+Possible: 2362 fens
+Exploring: 2362 fens
+
+RandomSensing Agent
+91256 before sensing
+Possible: 6474 fens
+Exploring: 6474 fens
+
+RandomSensing Agent
+83920 before sensing
+Possible: 27932 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+342042 before sensing
+Possible: 2525 fens
+Exploring: 2525 fens
+
+Game 2: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_14_30.json...
+RandomSensing Agent
+99034 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+543 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+442 before sensing
+Possible: 17 fens
+Exploring: 17 fens
+
+RandomSensing Agent
+560 before sensing
+Possible: 435 fens
+Exploring: 435 fens
+
+RandomSensing Agent
+320 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+301 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+1204 before sensing
+Possible: 667 fens
+Exploring: 667 fens
+
+RandomSensing Agent
+20968 before sensing
+Possible: 16511 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+265952 before sensing
+Possible: 192992 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+6694 before sensing
+Possible: 5899 fens
+Exploring: 5899 fens
+
+RandomSensing Agent
+5707 before sensing
+Possible: 5621 fens
+Exploring: 5621 fens
+
+RandomSensing Agent
+230580 before sensing
+Possible: 178737 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+424422 before sensing
+Possible: 10811 fens
+Exploring: 10000 fens
+
+Game 3: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_19_56.json...
+RandomSensing Agent
+9122 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 258 fens
+Exploring: 258 fens
+
+RandomSensing Agent
+62 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+59 before sensing
+Possible: 57 fens
+Exploring: 57 fens
+
+RandomSensing Agent
+1233 before sensing
+Possible: 1163 fens
+Exploring: 1163 fens
+
+Game 4: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_20_42.json...
+RandomSensing Agent
+12729 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+833 before sensing
+Possible: 511 fens
+Exploring: 511 fens
+
+RandomSensing Agent
+107 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+4 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+49 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+47 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+6 before sensing
+Possible: 5 fens
+Exploring: 5 fens
+
+RandomSensing Agent
+167 before sensing
+Possible: 144 fens
+Exploring: 144 fens
+
+RandomSensing Agent
+3594 before sensing
+Possible: 141 fens
+Exploring: 141 fens
+
+RandomSensing Agent
+4182 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+Game 5: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-16_23_31.json...
+RandomSensing Agent
+25 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 38 fens
+Exploring: 38 fens
+
+RandomSensing Agent
+622 before sensing
+Possible: 133 fens
+Exploring: 133 fens
+
+RandomSensing Agent
+212 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+458 before sensing
+Possible: 404 fens
+Exploring: 404 fens
+
+RandomSensing Agent
+9495 before sensing
+Possible: 9326 fens
+Exploring: 9326 fens
+
+RandomSensing Agent
+4077 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+398 before sensing
+Possible: 321 fens
+Exploring: 321 fens
+
+RandomSensing Agent
+6908 before sensing
+Possible: 5852 fens
+Exploring: 5852 fens
+
+RandomSensing Agent
+111599 before sensing
+Possible: 103723 fens
+Exploring: 10000 fens
+
+Game 6: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-16_26_38.json...
+RandomSensing Agent
+57384 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 43 fens
+Exploring: 43 fens
+
+RandomSensing Agent
+1168 before sensing
+Possible: 628 fens
+Exploring: 628 fens
+
+RandomSensing Agent
+14303 before sensing
+Possible: 13101 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+2329 before sensing
+Possible: 494 fens
+Exploring: 494 fens
+
+RandomSensing Agent
+12542 before sensing
+Possible: 213 fens
+Exploring: 213 fens
+
+RandomSensing Agent
+5727 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+946 before sensing
+Possible: 672 fens
+Exploring: 672 fens
+
+RandomSensing Agent
+1062 before sensing
+Possible: 153 fens
+Exploring: 153 fens
+
+RandomSensing Agent
+5690 before sensing
+Possible: 133 fens
+Exploring: 133 fens
+
+RandomSensing Agent
+145 before sensing
+Possible: 133 fens
+Exploring: 133 fens
+
+RandomSensing Agent
+4220 before sensing
+Possible: 2866 fens
+Exploring: 2866 fens
+
+RandomSensing Agent
+646 before sensing
+Possible: 391 fens
+Exploring: 391 fens
+
+RandomSensing Agent
+14115 before sensing
+Possible: 1307 fens
+Exploring: 1307 fens
+
+Game 7: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_44_28.json...
+RandomSensing Agent
+1208 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+318 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+368 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+1045 before sensing
+Possible: 966 fens
+Exploring: 966 fens
+
+RandomSensing Agent
+498 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+19 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+594 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+51 before sensing
+Possible: 7 fens
+Exploring: 7 fens
+
+RandomSensing Agent
+8 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+938 before sensing
+Possible: 583 fens
+Exploring: 583 fens
+
+RandomSensing Agent
+7218 before sensing
+Possible: 721 fens
+Exploring: 721 fens
+
+RandomSensing Agent
+9348 before sensing
+Possible: 5787 fens
+Exploring: 5787 fens
+
+RandomSensing Agent
+72176 before sensing
+Possible: 53307 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+213365 before sensing
+Possible: 9556 fens
+Exploring: 9556 fens
+
+RandomSensing Agent
+820 before sensing
+Possible: 382 fens
+Exploring: 382 fens
+
+RandomSensing Agent
+10441 before sensing
+Possible: 556 fens
+Exploring: 556 fens
+
+RandomSensing Agent
+10144 before sensing
+Possible: 2142 fens
+Exploring: 2142 fens
+
+RandomSensing Agent
+73 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+638 before sensing
+Possible: 605 fens
+Exploring: 605 fens
+
+RandomSensing Agent
+5841 before sensing
+Possible: 606 fens
+Exploring: 606 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 43 fens
+Exploring: 43 fens
+
+RandomSensing Agent
+509 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+182 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+217 before sensing
+Possible: 142 fens
+Exploring: 142 fens
+
+RandomSensing Agent
+2147 before sensing
+Possible: 1454 fens
+Exploring: 1454 fens
+
+RandomSensing Agent
+149 before sensing
+Possible: 71 fens
+Exploring: 71 fens
+
+RandomSensing Agent
+2206 before sensing
+Possible: 1682 fens
+Exploring: 1682 fens
+
+RandomSensing Agent
+24514 before sensing
+Possible: 18698 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+115118 before sensing
+Possible: 3008 fens
+Exploring: 3008 fens
+
+RandomSensing Agent
+48158 before sensing
+Possible: 21880 fens
+Exploring: 10000 fens
+
+Game 8: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-16_51_27.json...
+RandomSensing Agent
+126916 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 262 fens
+Exploring: 262 fens
+
+RandomSensing Agent
+4295 before sensing
+Possible: 209 fens
+Exploring: 209 fens
+
+RandomSensing Agent
+777 before sensing
+Possible: 65 fens
+Exploring: 65 fens
+
+RandomSensing Agent
+55 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+53 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+381 before sensing
+Possible: 213 fens
+Exploring: 213 fens
+
+RandomSensing Agent
+4533 before sensing
+Possible: 284 fens
+Exploring: 284 fens
+
+RandomSensing Agent
+191 before sensing
+Possible: 142 fens
+Exploring: 142 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 9: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-16_53_42.json...
+RandomSensing Agent
+5 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+15 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 43 fens
+Exploring: 43 fens
+
+RandomSensing Agent
+773 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+594 before sensing
+Possible: 49 fens
+Exploring: 49 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+543 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+631 before sensing
+Possible: 402 fens
+Exploring: 402 fens
+
+RandomSensing Agent
+8532 before sensing
+Possible: 295 fens
+Exploring: 295 fens
+
+RandomSensing Agent
+6907 before sensing
+Possible: 4592 fens
+Exploring: 4592 fens
+
+RandomSensing Agent
+85786 before sensing
+Possible: 3185 fens
+Exploring: 3185 fens
+
+RandomSensing Agent
+3001 before sensing
+Possible: 1125 fens
+Exploring: 1125 fens
+
+RandomSensing Agent
+485 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+58 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+2153 before sensing
+Possible: 1048 fens
+Exploring: 1048 fens
+
+RandomSensing Agent
+31519 before sensing
+Possible: 3727 fens
+Exploring: 3727 fens
+
+Game 10: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-17_36_52.json...
+RandomSensing Agent
+68586 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+754 before sensing
+Possible: 705 fens
+Exploring: 705 fens
+
+RandomSensing Agent
+579 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 34 fens
+Exploring: 34 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+855 before sensing
+Possible: 600 fens
+Exploring: 600 fens
+
+RandomSensing Agent
+12116 before sensing
+Possible: 9127 fens
+Exploring: 9127 fens
+
+RandomSensing Agent
+2619 before sensing
+Possible: 11 fens
+Exploring: 11 fens
+
+RandomSensing Agent
+475 before sensing
+Possible: 417 fens
+Exploring: 417 fens
+
+RandomSensing Agent
+11694 before sensing
+Possible: 10694 fens
+Exploring: 10000 fens
+
+Game 11: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_08_37.json...
+RandomSensing Agent
+10001 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+318 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+4 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+43 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+1024 before sensing
+Possible: 654 fens
+Exploring: 654 fens
+
+RandomSensing Agent
+13813 before sensing
+Possible: 495 fens
+Exploring: 495 fens
+
+RandomSensing Agent
+13742 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+892 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+10 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+20 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+627 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+405 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+318 before sensing
+Possible: 43 fens
+Exploring: 43 fens
+
+RandomSensing Agent
+466 before sensing
+Possible: 41 fens
+Exploring: 41 fens
+
+RandomSensing Agent
+420 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+305 before sensing
+Possible: 298 fens
+Exploring: 298 fens
+
+RandomSensing Agent
+2464 before sensing
+Possible: 470 fens
+Exploring: 470 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 11 fens
+Exploring: 11 fens
+
+RandomSensing Agent
+80 before sensing
+Possible: 50 fens
+Exploring: 50 fens
+
+RandomSensing Agent
+202 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+63 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 11 fens
+Exploring: 11 fens
+
+RandomSensing Agent
+74 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+98 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+177 before sensing
+Possible: 6 fens
+Exploring: 6 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+161 before sensing
+Possible: 150 fens
+Exploring: 150 fens
+
+RandomSensing Agent
+546 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 245 fens
+Exploring: 245 fens
+
+RandomSensing Agent
+778 before sensing
+Possible: 115 fens
+Exploring: 115 fens
+
+RandomSensing Agent
+305 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 9 fens
+Exploring: 9 fens
+
+RandomSensing Agent
+8 before sensing
+Possible: 8 fens
+Exploring: 8 fens
+
+Game 12: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-19_15_04.json...
+RandomSensing Agent
+104 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+264 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+28 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+644 before sensing
+Possible: 629 fens
+Exploring: 629 fens
+
+RandomSensing Agent
+123 before sensing
+Possible: 38 fens
+Exploring: 38 fens
+
+RandomSensing Agent
+1366 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+18 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+485 before sensing
+Possible: 456 fens
+Exploring: 456 fens
+
+RandomSensing Agent
+61 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 10 fens
+Exploring: 10 fens
+
+Game 13: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_16_58.json...
+RandomSensing Agent
+11 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 345 fens
+Exploring: 345 fens
+
+RandomSensing Agent
+4717 before sensing
+Possible: 4592 fens
+Exploring: 4592 fens
+
+RandomSensing Agent
+62184 before sensing
+Possible: 8632 fens
+Exploring: 8632 fens
+
+RandomSensing Agent
+730 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+22 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+41 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+46 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+44 before sensing
+Possible: 22 fens
+Exploring: 22 fens
+
+RandomSensing Agent
+852 before sensing
+Possible: 474 fens
+Exploring: 474 fens
+
+RandomSensing Agent
+13467 before sensing
+Possible: 475 fens
+Exploring: 475 fens
+
+Game 14: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-19_20_27.json...
+RandomSensing Agent
+10241 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+261 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+642 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+703 before sensing
+Possible: 50 fens
+Exploring: 50 fens
+
+RandomSensing Agent
+1216 before sensing
+Possible: 775 fens
+Exploring: 775 fens
+
+RandomSensing Agent
+13511 before sensing
+Possible: 9103 fens
+Exploring: 9103 fens
+
+RandomSensing Agent
+143348 before sensing
+Possible: 4893 fens
+Exploring: 4893 fens
+
+RandomSensing Agent
+105817 before sensing
+Possible: 33910 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+285201 before sensing
+Possible: 179470 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+329853 before sensing
+Possible: 296985 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+7185 before sensing
+Possible: 304 fens
+Exploring: 304 fens
+
+RandomSensing Agent
+144 before sensing
+Possible: 86 fens
+Exploring: 86 fens
+
+RandomSensing Agent
+2754 before sensing
+Possible: 12 fens
+Exploring: 12 fens
+
+RandomSensing Agent
+12 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+140 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+55 before sensing
+Possible: 42 fens
+Exploring: 42 fens
+
+Game 15: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_27_05.json...
+RandomSensing Agent
+2 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+2 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+33 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+750 before sensing
+Possible: 653 fens
+Exploring: 653 fens
+
+RandomSensing Agent
+8654 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+792 before sensing
+Possible: 30 fens
+Exploring: 30 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+399 before sensing
+Possible: 261 fens
+Exploring: 261 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+799 before sensing
+Possible: 554 fens
+Exploring: 554 fens
+
+RandomSensing Agent
+6234 before sensing
+Possible: 5792 fens
+Exploring: 5792 fens
+
+RandomSensing Agent
+2196 before sensing
+Possible: 2134 fens
+Exploring: 2134 fens
+
+RandomSensing Agent
+29005 before sensing
+Possible: 1165 fens
+Exploring: 1165 fens
+
+RandomSensing Agent
+18201 before sensing
+Possible: 234 fens
+Exploring: 234 fens
+
+RandomSensing Agent
+4617 before sensing
+Possible: 2005 fens
+Exploring: 2005 fens
+
+RandomSensing Agent
+21374 before sensing
+Possible: 16402 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+488 before sensing
+Possible: 289 fens
+Exploring: 289 fens
+
+RandomSensing Agent
+7403 before sensing
+Possible: 1061 fens
+Exploring: 1061 fens
+
+RandomSensing Agent
+1155 before sensing
+Possible: 400 fens
+Exploring: 400 fens
+
+RandomSensing Agent
+272 before sensing
+Possible: 60 fens
+Exploring: 60 fens
+
+RandomSensing Agent
+30 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+308 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+Game 16: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-19_31_02.json...
+RandomSensing Agent
+41 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 159 fens
+Exploring: 159 fens
+
+RandomSensing Agent
+26 before sensing
+Possible: 20 fens
+Exploring: 20 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+36 before sensing
+Possible: 26 fens
+Exploring: 26 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 40 fens
+Exploring: 40 fens
+
+RandomSensing Agent
+1224 before sensing
+Possible: 1108 fens
+Exploring: 1108 fens
+
+RandomSensing Agent
+17833 before sensing
+Possible: 10938 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+6616 before sensing
+Possible: 3250 fens
+Exploring: 3250 fens
+
+RandomSensing Agent
+58515 before sensing
+Possible: 65 fens
+Exploring: 65 fens
+
+RandomSensing Agent
+1568 before sensing
+Possible: 670 fens
+Exploring: 670 fens
+
+Game 17: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-19_33_40.json...
+RandomSensing Agent
+455 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+522 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+40 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 35 fens
+Exploring: 35 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 33 fens
+Exploring: 33 fens
+
+RandomSensing Agent
+34 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+Game 18: Winner - white
+Saving replay to RandomSensing-TroutBot-white-2024_05_16-19_34_47.json...
+RandomSensing Agent
+817 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+326 before sensing
+Possible: 324 fens
+Exploring: 324 fens
+
+RandomSensing Agent
+77 before sensing
+Possible: 46 fens
+Exploring: 46 fens
+
+RandomSensing Agent
+5 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+65 before sensing
+Possible: 2 fens
+Exploring: 2 fens
+
+RandomSensing Agent
+79 before sensing
+Possible: 58 fens
+Exploring: 58 fens
+
+RandomSensing Agent
+1936 before sensing
+Possible: 257 fens
+Exploring: 257 fens
+
+RandomSensing Agent
+160 before sensing
+Possible: 68 fens
+Exploring: 68 fens
+
+RandomSensing Agent
+1840 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+29 before sensing
+Possible: 29 fens
+Exploring: 29 fens
+
+RandomSensing Agent
+673 before sensing
+Possible: 602 fens
+Exploring: 602 fens
+
+RandomSensing Agent
+10168 before sensing
+Possible: 2933 fens
+Exploring: 2933 fens
+
+RandomSensing Agent
+48871 before sensing
+Possible: 2547 fens
+Exploring: 2547 fens
+
+RandomSensing Agent
+47352 before sensing
+Possible: 16026 fens
+Exploring: 10000 fens
+
+Game 19: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-19_36_59.json...
+RandomSensing Agent
+1176 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+RandomSensing Agent
+1067 before sensing
+Possible: 665 fens
+Exploring: 665 fens
+
+RandomSensing Agent
+14345 before sensing
+Possible: 13782 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+2111 before sensing
+Possible: 24 fens
+Exploring: 24 fens
+
+RandomSensing Agent
+1044 before sensing
+Possible: 942 fens
+Exploring: 942 fens
+
+RandomSensing Agent
+25502 before sensing
+Possible: 18494 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1544 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+58 before sensing
+Possible: 4 fens
+Exploring: 4 fens
+
+Game 20: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-19_48_21.json...
+RandomSensing Agent
+231 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+353 before sensing
+Possible: 156 fens
+Exploring: 156 fens
+
+RandomSensing Agent
+2811 before sensing
+Possible: 438 fens
+Exploring: 438 fens
+
+RandomSensing Agent
+80 before sensing
+Possible: 32 fens
+Exploring: 32 fens
+
+RandomSensing Agent
+109 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+45 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+1044 before sensing
+Possible: 25 fens
+Exploring: 25 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+39 before sensing
+Possible: 38 fens
+Exploring: 38 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+49 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+49 before sensing
+Possible: 37 fens
+Exploring: 37 fens
+
+Game 21: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_51_03.json...
+RandomSensing Agent
+38 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+263 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+16 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 28 fens
+Exploring: 28 fens
+
+RandomSensing Agent
+869 before sensing
+Possible: 535 fens
+Exploring: 535 fens
+
+RandomSensing Agent
+11731 before sensing
+Possible: 10479 fens
+Exploring: 10000 fens
+
+RandomSensing Agent
+1435 before sensing
+Possible: 373 fens
+Exploring: 373 fens
+
+RandomSensing Agent
+42 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+983 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+Game 22: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-19_53_00.json...
+RandomSensing Agent
+419 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+RandomSensing Agent
+265 before sensing
+Possible: 265 fens
+Exploring: 265 fens
+
+RandomSensing Agent
+4313 before sensing
+Possible: 239 fens
+Exploring: 239 fens
+
+RandomSensing Agent
+38 before sensing
+Possible: 19 fens
+Exploring: 19 fens
+
+RandomSensing Agent
+14 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+32 before sensing
+Possible: 31 fens
+Exploring: 31 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+37 before sensing
+Possible: 36 fens
+Exploring: 36 fens
+
+RandomSensing Agent
+691 before sensing
+Possible: 3 fens
+Exploring: 3 fens
+
+RandomSensing Agent
+69 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+RandomSensing Agent
+0 before sensing
+Possible: 0 fens
+No possible fens
+Game 23: Winner - white
+Saving replay to TroutBot-RandomSensing-white-2024_05_16-19_54_51.json...
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+21 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+50 before sensing
+Possible: 45 fens
+Exploring: 45 fens
+
+RandomSensing Agent
+793 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+35 before sensing
+Possible: 23 fens
+Exploring: 23 fens
+
+RandomSensing Agent
+3 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+1 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+11 before sensing
+Possible: 11 fens
+Exploring: 11 fens
+
+RandomSensing Agent
+249 before sensing
+Possible: 102 fens
+Exploring: 102 fens
+
+RandomSensing Agent
+17 before sensing
+Possible: 14 fens
+Exploring: 14 fens
+
+RandomSensing Agent
+308 before sensing
+Possible: 271 fens
+Exploring: 271 fens
+
+RandomSensing Agent
+3771 before sensing
+Possible: 2669 fens
+Exploring: 2669 fens
+
+RandomSensing Agent
+32315 before sensing
+Possible: 1397 fens
+Exploring: 1397 fens
+
+RandomSensing Agent
+569 before sensing
+Possible: 27 fens
+Exploring: 27 fens
+
+RandomSensing Agent
+557 before sensing
+Possible: 449 fens
+Exploring: 449 fens
+
+RandomSensing Agent
+2411 before sensing
+Possible: 2138 fens
+Exploring: 2138 fens
+
+RandomSensing Agent
+124 before sensing
+Possible: 18 fens
+Exploring: 18 fens
+
+RandomSensing Agent
+13 before sensing
+Possible: 13 fens
+Exploring: 13 fens
+
+Game 24: Winner - black
+Saving replay to RandomSensing-TroutBot-black-2024_05_16-19_58_10.json...
+RandomSensing Agent
+186 before sensing
+Possible: 1 fens
+Exploring: 1 fens
+
+RandomSensing Agent
+31 before sensing
+Possible: 16 fens
+Exploring: 16 fens
+
+RandomSensing Agent
+417 before sensing
+Possible: 385 fens
+Exploring: 385 fens
+
+RandomSensing Agent
+8072 before sensing
+Possible: 394 fens
+Exploring: 394 fens
+
+RandomSensing Agent
+6374 before sensing
+Possible: 277 fens
+Exploring: 277 fens
+
+RandomSensing Agent
+4489 before sensing
+Possible: 3967 fens
+Exploring: 3967 fens
+
+RandomSensing Agent
+2010 before sensing
+Possible: 368 fens
+Exploring: 368 fens
+
+RandomSensing Agent
+422 before sensing
+Possible: 21 fens
+Exploring: 21 fens
+
+RandomSensing Agent
+824 before sensing
+Possible: 252 fens
+Exploring: 252 fens
+
+RandomSensing Agent
+6944 before sensing
+Possible: 422 fens
+Exploring: 422 fens
+
+Game 25: Winner - black
+Saving replay to TroutBot-RandomSensing-black-2024_05_16-19_59_45.json...
+
+Results after 25 games:
+Completed games: 25
+TroutBot wins: 17 (white wins: 9, black wins: 8), Failed games: 0
+RandomSensing wins: 8 (white wins: 4, black wins: 4), Failed games: 0
+Draw ratio: 0.00
