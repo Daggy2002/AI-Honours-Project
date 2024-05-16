@@ -34,15 +34,15 @@ def summarize_results(text):
             if failed_games:
                 troutbot_failed_games += int(failed_games.group(1))
 
-        if "ImprovedAgent wins" in line:
+        if "RandomSensing wins" in line:
             match = re.search(
-                r"ImprovedAgent wins: (\d+) \(white wins: (\d+), black wins: (\d+)\)", line)
+                r"RandomSensing wins: (\d+) \(white wins: (\d+), black wins: (\d+)\)", line)
             if match:
                 improved_agent_wins += int(match.group(1))
                 improved_agent_white_wins += int(match.group(2))
                 improved_agent_black_wins += int(match.group(3))
 
-        if "Failed games" in line and "ImprovedAgent" in line:
+        if "Failed games" in line and "RandomSensing" in line:
             failed_games = re.search(r"Failed games: (\d+)", line)
             if failed_games:
                 improved_agent_failed_games += int(failed_games.group(1))
@@ -53,18 +53,18 @@ def summarize_results(text):
         f"TroutBot wins: {troutbot_wins} (white wins: {troutbot_white_wins}, black wins: {troutbot_black_wins})")
     print(f"TroutBot failed games: {troutbot_failed_games}")
     print(
-        f"ImprovedAgent wins: {improved_agent_wins} (white wins: {improved_agent_white_wins}, black wins: {improved_agent_black_wins})")
-    print(f"ImprovedAgent failed games: {improved_agent_failed_games}")
+        f"RandomSensing wins: {improved_agent_wins} (white wins: {improved_agent_white_wins}, black wins: {improved_agent_black_wins})")
+    print(f"RandomSensing failed games: {improved_agent_failed_games}")
     print()
 
     # Win rate
     print(f"TroutBot win rate: {troutbot_wins/total_completed_games}")
     print(
-        f"ImprovedAgent win rate: {improved_agent_wins/total_completed_games}")
+        f"RandomSensing win rate: {improved_agent_wins/total_completed_games}")
 
 
 # Take in the textfile
-with open("5000_final.txt", "r") as file:
+with open("500_rs_tb.txt", "r") as file:
     text = file.read()
 
 # Call the function to summarize the results
