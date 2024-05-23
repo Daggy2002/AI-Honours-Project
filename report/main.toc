@@ -7,6 +7,6 @@
 \contentsline {subsection}{\numberline {3.2}Key Improvements Implemented for ImprovedAgent}{4}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Prioritized Sensing}{4}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Captured Piece Information}{5}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Sense Result Filtering}{6}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Sense Result Filtering}{5}{subsubsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}Check Handling}{6}{subsubsection.3.2.4}%
 \contentsline {section}{\numberline {4}Conclusion}{6}{section.4}%

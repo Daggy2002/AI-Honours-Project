@@ -133,7 +133,7 @@
 
 \section{Introduction}
 
-This report outlines the development and performance evaluation of an agent tailored for Reconnaissance Blind Chess (RBC). In this strategic pursuit, the agent's construction demanded smart planning. Through a systematic approach, this document elucidates the agent's design methodologies, operational strategies, and final performance outcomes within the RBC domain.
+This report outlines the development and performance evaluation of an agent tailored for Reconnaissance Blind Chess (RBC). The primary goal of this report is to evaluate the performance of various agents in RBC and propose improvements for enhanced strategic decision-making. In this strategic pursuit, the agent's construction demanded smart planning. Through a systematic approach, this document elucidates the agent's design methodologies, operational strategies, and final performance outcomes within the RBC domain.
 
 \section{Round Robin Tournament}
 
@@ -141,11 +141,13 @@ For this experiment, we organized a round-robin tournament format to assess the 
 
 \subsection{Results}
 
-In the round-robin tournament, ImprovedAgent emerged as the most successful, winning 32 tournaments and securing 227 round wins with balanced performance across both white and black positions, registering 108 and 119 wins, respectively, and only two round draws. Trailing behind, RandomSensing exhibited competitive prowess, winning 15 tournaments and securing 182 round wins, albeit slightly favoring black positions with 99 wins compared to 83 wins as white. TroutBot claimed victory in 14 tournaments and secured 182 round wins. Conversely, RandomBot struggled, achieving no tournament victories and only 7 round wins. The tournament was conducted on the MSL cluster through a specialized pipeline, facilitating simultaneous game execution for efficient evaluation. These results offer insights into each agent's strengths and weaknesses, informing their adaptability and strategic proficiency in Reconnaissance Blind Chess.
+In the round-robin tournament, ImprovedAgent emerged as the most successful, winning 32 tournaments and securing 227 round wins with balanced performance across both white and black positions, registering 108 and 119 wins, respectively, and only two round draws. Trailing behind, RandomSensing exhibited competitive prowess, winning 15 tournaments and securing 182 round wins, albeit slightly favoring black positions with 99 wins compared to 83 wins as white. TroutBot claimed victory in 14 tournaments and secured 182 round wins. Conversely, RandomBot struggled, achieving no tournament victories and only 7 round wins. 
+
+The tournament was conducted on the MSL cluster through a specialized pipeline, facilitating simultaneous game execution for efficient evaluation. These results suggest that the key improvements implemented in ImprovedAgent, such as prioritized sensing and captured piece information utilization, significantly enhanced its strategic decision-making capabilities, leading to superior performance over other agents.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{tournamentTotal.png}
+\includegraphics[width=0.5\textwidth]{tournamentTotal.png}
 \caption{Tallied results of the round-robin tournament}
 \label{fig:tournamentTotal}
 \end{figure}
@@ -180,19 +182,17 @@ The ImprovedAgent incorporates a prioritized sensing algorithm to intelligently 
 
 The prioritized sensing algorithm is implemented in the \texttt{choose\_sense} method of the ImprovedAgent class. The algorithm works as follows:
 
-\begin{enumerate}
-    \item If the opponent has captured one of the agent's pieces in the previous move, the algorithm focuses on a $3\times3$ region around the captured square. It adjusts the rank and file of the captured square to ensure that the $3\times3$ region falls within the bounds of the board, even if the captured square is on the edge or corner. The algorithm then returns the adjusted square as the chosen sense action.
+1. If the opponent has captured one of the agent's pieces in the previous move, the algorithm focuses on a $3\times3$ region around the captured square. It adjusts the rank and file of the captured square to ensure that the $3\times3$ region falls within the bounds of the board, even if the captured square is on the edge or corner. The algorithm then returns the adjusted square as the chosen sense action.
     
-    \item If no piece has been captured, the algorithm iterates through the set of possible board states (\texttt{self.possible\_fens}) and the available sense actions (\texttt{sense\_actions}).
+2. If no piece has been captured, the algorithm iterates through the set of possible board states (\texttt{self.possible\_fens}) and the available sense actions (\texttt{sense\_actions}).
     
-    \item For each square in \texttt{sense\_actions} that falls within the inner region of the board (to avoid selecting squares on the edges or corners), the algorithm evaluates the potential benefit of sensing that square by calling the \texttt{evaluate\_region} function.
+3. For each square in \texttt{sense\_actions} that falls within the inner region of the board (to avoid selecting squares on the edges or corners), the algorithm evaluates the potential benefit of sensing that square by calling the \texttt{evaluate\_region} function.
     
-    \item The \texttt{evaluate\_region} function calculates the value of the square by summing up the piece values of the opponent's pieces in the surrounding $3\times3$ region. The piece values are defined in the \texttt{piece\_values} dictionary, with each piece type assigned a corresponding numerical value (e.g., pawn: 1, knight: 3, bishop: 3, rook: 5, queen: 9, king: 10).
+4. The \texttt{evaluate\_region} function calculates the value of the square by summing up the piece values of the opponent's pieces in the surrounding $3\times3$ region. The piece values are defined in the \texttt{piece\_values} dictionary, with each piece type assigned a corresponding numerical value (e.g., pawn: 1, knight: 3, bishop: 3, rook: 5, queen: 9, king: 10).
     
-    \item The algorithm keeps track of the maximum value found so far (\texttt{max\_value}) and the corresponding best square (\texttt{best\_square}).
+5. The algorithm keeps track of the maximum value found so far (\texttt{max\_value}) and the corresponding best square (\texttt{best\_square}).
     
-    \item After evaluating all the squares, the algorithm returns the \texttt{best\_square} as the chosen sense action.
-\end{enumerate}
+6. After evaluating all the squares, the algorithm returns the \texttt{best\_square} as the chosen sense action.
 
 \begin{figure}[H]
   \centering
@@ -223,16 +223,17 @@ We experimented with different piece values, particularly the king's value, to o
 The rationale behind this approach is to prioritize sensing squares that are more likely to provide valuable information about the opponent's piece positions, specifically those squares where capturing enemy pieces is possible. By focusing on squares with higher potential for capturing, the agent can gather strategic insights and make more informed decisions during the game.
 
 \subsubsection{Captured Piece Information}
-When the opponent captures one of the agent's pieces, the agent utilizes this information to narrow down the possible board states. It identifies the captured square and focuses on a 3x3 region around that square, handling cases where the captured square is on the edges and corners of the board, mainting a full 3x3 sense region to get the most amount of information possible. The agent then filters out board states where the captured piece is still present in this 3x3 region, significantly reducing the search space.
+When the opponent captures one of the agent's pieces, the agent utilizes this information to narrow down the possible board states. It identifies the captured square and focuses on a $3\times3$ region around that square, handling cases where the captured square is on the edges and corners of the board, maintaining a full $3\times3$ sense region to get the most amount of information possible. The agent then filters out board states where the captured piece is still present in this $3\times3$ region, significantly reducing the search space.
 
 \subsubsection{Sense Result Filtering}
-After sensing a square, the agent filters out board states that do not match the sense result, further refining the possible board states. This allows the agent to maintain a more accurate representation of the board state based on the information gathered through sensing.
+After sensing a square, the agent filters out board states that do not match the sense result, further refining the possible board states. For example, if the agent senses a square and finds a knight, it will discard all board states where a knight is not present in that square. This allows the agent to maintain a more accurate representation of the board state based on the information gathered through sensing.
 
 \subsubsection{Check Handling}
 When the enemy king is in check, the ImprovedAgent prioritizes moves that capture the enemy king or moves that get the king out of check. For each possible board state, the agent identifies if the enemy king is under attack and, if so, attempts to find a move that captures the enemy king or a legal move that does not leave the king in check. This strategic consideration improves the agent's ability to handle check scenarios effectively.
 
 \section{Conclusion}
-By incorporating these techniques, the number of possible board states that the agent needs to consider is drastically reduced compared to a random sensing approach. This reduction in the search space allows the Stockfish engine, which is used for move evaluation, to spend more time analyzing each remaining board state and explore deeper variations. As a result, Stockfish can provide more accurate and informed move evaluations, enabling the ImprovedAgent to make better strategic decisions and improve its overall performance in Reconnaissance Blind Chess.
+
+This report demonstrated significant performance improvements in Reconnaissance Blind Chess through the development and evaluation of the ImprovedAgent. Key enhancements, such as prioritized sensing, captured piece information utilization, and sense result filtering, effectively reduced the number of possible board states the agent needs to consider. This reduction allowed the Stockfish engine to perform deeper analyses on the remaining board states, leading to more accurate and informed move evaluations. As evidenced by the round-robin tournament results, these strategic improvements enabled the ImprovedAgent to outperform other models, highlighting the effectiveness of the implemented techniques in enhancing strategic decision-making in RBC.
 
 
     
